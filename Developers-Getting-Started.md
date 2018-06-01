@@ -62,7 +62,7 @@ Scanning modules in C:\poseidon-apps\test-modules\node_modules
 ```
 Open a browser at http://localhost:8080 in order to see the modules:
 
-![image.png](.attachments/image-18c248bf-8ae7-445f-a2c6-99aae727fe3c.png)
+![image.png](https://github.com/kognifai/PoseidonNext-Framework/blob/master/.attachments/image-18c248bf-8ae7-445f-a2c6-99aae727fe3c.png)
 
 ## Looking at the module sources 
 You can open the source code for each of the test modules in VS Code:
@@ -118,13 +118,13 @@ poseidon-dev-host --next C:\poseidon-apps\modules
 ```
 Open a browser at http://localhost:8080 in order to see your application:
 
-![image.png](.attachments/image-033ab986-fa95-4569-ab25-151c74bca8e9.png)
+![image.png](https://github.com/kognifai/PoseidonNext-Framework/blob/master/.attachments/image-033ab986-fa95-4569-ab25-151c74bca8e9.png)
 
 ## Running side-by-side with test modules
 As NPM was used to install the test modules, they're located under the **c:\poseidon-apps\test-modules\node_modules** directory.
 You can simply copy them to your new **C:\poseidon-apps\modules** directory, and you can have them loaded side-by-side with your newly created applications. 
 
-![image.png](.attachments/image-13c57682-818a-4152-9f29-564db446b268.png)
+![image.png](https://github.com/kognifai/PoseidonNext-Framework/blob/master/.attachments/image-13c57682-818a-4152-9f29-564db446b268.png)
 
 
 # Using the Kognifai Design System
