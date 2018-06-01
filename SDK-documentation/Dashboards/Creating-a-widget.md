@@ -1,3 +1,4 @@
+
 # Description
 A widget is an Angular component that can be dynamically added to a view, rearranged and configured, saved into a view and loaded by Dashboards. In its essence, it is a configurable piece of logic with its corresponding UI presentation.
 
@@ -14,7 +15,7 @@ A widget consists of two UI parts/views:
 This is the main view of the widget. This is the presentation that the user sees when they insert the widget into a dashboard.
 An example of a widget view is:
 
-![widget.png](.attachments/widget-6b5c116c-dcc0-47ed-bddf-c1838a36610e.png)
+![widget.png](https://github.com/kognifai/PoseidonNext-Framework/blob/master/.attachments/widget-6b5c116c-dcc0-47ed-bddf-c1838a36610e.png)
 
 *Note the buttons in the top right corner. They are utility buttons which bring up the configuration view of the widget and remove it from the dashboard correspondingly. They are provided by the Dashboards framework and are not part of the widget view itself.
 
@@ -22,7 +23,7 @@ An example of a widget view is:
 A widget also must have a view/means to interact with its configuration.
 An example of a widget configuration view is:
 
-![widget_config.png](.attachments/widget_config-896a4f67-799c-4634-b91a-734e1c48b71e.png)
+![widget_config.png](https://github.com/kognifai/PoseidonNext-Framework/blob/master/.attachments/widget_config-896a4f67-799c-4634-b91a-734e1c48b71e.png)
 
 *Note the buttons in the bottom right corner. They are utility buttons which persist or discard the changes made to the widget configuration. They are provided by the Dashboards framework and are not part of the widget configuration view itself.
 
