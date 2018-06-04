@@ -139,12 +139,6 @@ To read the documentation head over to [https://designsystem.kognif.ai/](https:/
 
 Next step is to explore the services and tools that comes with Poseidon Next.
 
-# Attributions
-Please see the attribution file [KognifaiPoseidonNext-Attribution](https://github.com/kognifai/PoseidonNext_Samples/blob/master/KognifaiPoseidonNext-Attribution.pdf)
-
-# License
-Read the copyright information and terms and conditions for usage and development of the software [here](https://github.com/kognifai/Core_Documentation/blob/master/LinkedPages/License.md).
-
 
 
 
