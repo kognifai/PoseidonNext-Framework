@@ -1,7 +1,7 @@
 
 # Poseidon Next
 
-Create Kognifai applications with the Poseidon Next framework.
+Create Kognifai applications with the Poseidon Next Framework.
 
 To get started please read the [Getting started](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Developers-Getting-Started.md) article.
 
@@ -14,7 +14,7 @@ Poseidon Next Services, Widgets, and Dashboards information are available in the
   Common Data Service | This service is used to fetch data from any time series data provider. |[Common Data Service](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Common-Data-Service.md)|
  Configuration Service | This service is used to fetch some basic configurational information for the PoseidonNext. It is registered as one of the providers in app.module.ts in PoseidonNext Core. |[Configuration Service](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Configuration-Service.md)|
   Creating a widget | A widget is an Angular component that can be dynamically added, rearranged, configured, and saved into a view and loaded by Dashboards. |[Creating a widget](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Dashboards/Creating-a-widget.md)|
-  Creating a widgets package | A widgets package is an Angular module that currently has two main purposes: * Declares widget components (so they are visible to other Angular modules) * Registers widgets with the Dashboards framework (so they are visible to dashboards creators) |[Creating a widgets package](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Dashboards/Creating-a-widgets-package.md)|
+  Creating a widgets package | A widgets package is an Angular module that currently has two main purposes: 1. Declares widget components (so they are visible to other Angular modules) 2. Registers widgets with the Dashboards framework (so they are visible to dashboards creators) |[Creating a widgets package](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Dashboards/Creating-a-widgets-package.md)|
  Date Time Formatter Service | This service is used to specify the date and time format which is to be displayed to the end user for application specific use cases. The package is independently developed without having any dependency on angular5 or with any of its sister libraries. The primary dependency for this package is moment.js . | [Date Time Formatter Service](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Date-Time-Formatter-Service.md)|
  Developers Getting Started page | A developer must start reading from this page to have a holistic view of Poseidon Next features | [Developers Getting Started page](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Developers-Getting-Started.md)|
   Home and Favorites Service | This is the default landing page/view in Poseidon. It contains a default icon which enables user to add favourite items on this screen |[Home and Favorites Service](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Home-and-Favorites-Service.md)|
