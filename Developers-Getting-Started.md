@@ -22,7 +22,9 @@ poseidon-dev-host --next
 ```
 
 The console shows a message that it is now listening on http://localhost:8080. 
-Opening the browser on this URL loads up the Poseidon Core. The host comes with a developer friendly security solution. Type in any username and password to enter the application. A full security service will be provided in a future release.
+Opening the browser on this URL loads up the Poseidon Core. 
+
+The host comes with a developer friendly security solution. *Type in any username and password to enter the application*. A full security service will be provided in a future release.
 
 # Installing test modules
 There are several test modules that can be used as examples for the services provided by the framework. 
