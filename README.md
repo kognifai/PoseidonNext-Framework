@@ -1,18 +1,19 @@
 
 # Poseidon Next
 
-Poseidon Next is a framework for developers to easily create web applications on the Kognifai ecosystem.”
+Poseidon Next is a framework for developers to easily create web applications on the Kognifai ecosystem.
 
 To get started please start your reading from Developer's Getting Stated page from the following table.
 
-| Services| Link | Description | 
-|------|----------|----------|
+| Services| Link | Description  
+|-------------------------|---------------|----------------
  Developers Getting Started page | [Developers Getting Started page](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Developers-Getting-Started.md)|A developer must start reading from this page to have a holistic view of Poseidon Next features |
+
 
 Services are Library packages intented for specific set of tasks. Poseidon Next offers the following services that cab be used in your application.
 
-| Services| Link | Description | 
-|------|----------|----------|
+| Services| Link       | Description  
+|-------------------------|---------------|--------
  Authentication Service | [Authentication Service](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Authentication-Service.md)|This service is used in client applications for authenticating against an OIDC identity server. It provides Login and Logout functionality|
  Authorization Service| [Authorization Service](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Authorization-Service.md)|This service helps in managing resources and its associated permissions. |
   Common Data Service | [Common Data Service](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Common-Data-Service.md)|This service is used to fetch data from any time series data provider. |
@@ -29,13 +30,12 @@ Unit Of Measurement Service| [Unit Of Measurement Service](https://github.com/ko
 Poseidon Next Widgets, and Dashboards information are available in the following table. Click the link associated to a particular Widget for more information and sample codes.
 
 | Widgets/Dashboards | Link | Description | 
-|------|----------|----------|
+|-------------------------|---------------|---------------|
   Creating a widget | [Creating a widget](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Dashboards/Creating-a-widget.md)|A widget is an Angular component that can be dynamically added, rearranged, configured, and saved into a view and loaded by Dashboards. |
   Creating a widgets package | [Creating a widgets package](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Dashboards/Creating-a-widgets-package.md)|A widgets package is an Angular module that currently has two main purposes: 1. Declares widget components (so they are visible to other Angular modules) 2. Registers widgets with the Dashboards framework (so they are visible to dashboards creators) |
  
 
   
-           
 # Attributions
 Please see the attribution file [KognifaiPoseidonNext-Attribution](https://github.com/kognifai/PoseidonNext_Samples/blob/master/KognifaiPoseidonNext-Attribution.pdf)
 
