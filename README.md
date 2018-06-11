@@ -31,7 +31,7 @@ To create your Widgets and Widget packages, explore their description and sample
 
 | Widgets/Dashboards | Link | Description | 
 |-------------------------|------------------| ---------------|
-  Creating a widget | [Creating a widget](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Dashboards/Creating-a-widget.md)|A widget is an Angular component that is dynamically added, rearranged, configured, saved and loaded by Dashboards|
+  Creating a widget | [Creating a widget](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Dashboards/Creating-a-widget.md)|A widget is an Angular component |
   Creating a widget package | [Creating a widget package](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Dashboards/Creating-a-widgets-package.md)|A widget package is an Angular module.
   
 # Attributions
