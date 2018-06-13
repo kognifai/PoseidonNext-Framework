@@ -34,11 +34,8 @@ To create your Widgets and Widget packages, explore their description and sample
   Creating a widget | [Creating a widget](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Dashboards/Creating-a-widget.md)|A widget is an Angular component. |
   Creating a widget package | [Creating a widget package](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Dashboards/Creating-a-widgets-package.md)|A widget package is an Angular module.|
   
-# Attributions
+## Attributions
 Please see the attribution file [KognifaiPoseidonNext-Attribution](https://github.com/kognifai/PoseidonNext_Samples/blob/master/KognifaiPoseidonNext-Attribution.pdf)
 
-# License
+## License
 Read the copyright information and terms and conditions for Usage and Development of the software [here](https://github.com/kognifai/Kognifai/blob/master/License.md#copyright--year-kongsberg-digital-as).
-
-## Let's discuss here 
- Write your queries and discussions [here](https://github.com/kognifai/Kognifai/issues) and submit to post them on Gitter chat room.
