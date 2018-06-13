@@ -1,5 +1,5 @@
-
-# Poseidon Next
+ 
+# Poseidon Next  [![Gitter Join the chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kognifai/Lobby)
 
 Poseidon Next is a framework for developers to easily create web applications on the Kognifai ecosystem.
 
