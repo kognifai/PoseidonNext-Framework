@@ -1,20 +1,20 @@
  
 # Poseidon Next  [![Gitter Join the chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kognifai/Lobby)
 
-Poseidon Next is the Kognifai web application framework by using the Kognifai Design System. A developer can create top-notch web applications with less efforts on Kognifai ecosystem.
+Poseidon Next is the Kognifai web application framework. A developer can create top-notch web applications with less efforts on Kognifai ecosystem.
 
 In this section, we talk about:
 
-[Developers Getting Started page](#Developers-Getting-Started-page)
+[Developers Getting Started page](#DS)
 
 [Services](#Services)
 
-[Widgets/Dashboard](#Widgets-/Dashboard)
+[Widgets/Dashboard](#Widgets/Dashboard)
 
 [Attributions](#Attributions)
 
-# Developers Getting Started page
-[Developers Getting Started page](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Developers-Getting-Started.md)  provides information on prerequisites, how to install and host posedion dev host from NPM globally, how to install test modules, how to create a new Poseidon application, and how to use the Kognifai Design System. 
+## [Developers Getting Started page](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Developers-Getting-Started.md) 
+[Developers Getting Started page](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Developers-Getting-Started.md)  provides information on prerequisites, how to globally install and host posedion dev host from NPM, how to install test modules, how to create a new Poseidon application, and how to use the Kognifai Design System. 
 
 ## [Services](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Services.md)
 
@@ -44,7 +44,7 @@ Unit Of Measurement Service| [Unit Of Measurement Service](https://github.com/ko
   Creating a widget | [Creating a widget](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Dashboards/Creating-a-widget.md)|A widget is an Angular component. |
   Creating a widget package | [Creating a widget package](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Dashboards/Creating-a-widgets-package.md)|A widget package is an Angular module.|
   
-# Attributions
+## [Attributions](https://github.com/kognifai/PoseidonNext_Samples/blob/master/KognifaiPoseidonNext-Attribution.pdf)
 Please see the attribution file [KognifaiPoseidonNext-Attribution](https://github.com/kognifai/PoseidonNext_Samples/blob/master/KognifaiPoseidonNext-Attribution.pdf)
 
 # License
