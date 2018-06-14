@@ -16,7 +16,7 @@ In this section, we talk about:
 # [Developers Getting Started page](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Developers-Getting-Started.md) 
 Developers Getting Started page is the home page for you to get started developing your web applications on Kognifai ecosystem. 
 
-## Services
+# Services
 
 Services are library packages intented for specific set of tasks. Poseidon Next offers the following services that can be used in your application.
 
@@ -35,7 +35,7 @@ Services are library packages intented for specific set of tasks. Poseidon Next 
  Tools Menu Service| [Tools Menu Service](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Tools-Menu-Service.md)|The Tools menu service holds list of items that are displayed on the right-hand side menu in Poseidon.  |
 Unit Of Measurement Service| [Unit Of Measurement Service](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Unit-Of-Measurement-Service.md)|This service is used to convert units from one to another.   |
 
-### Widgets/Dashboard
+# Widgets/Dashboard
 
 Widgets and Widget packages descriptions are avialble here for you to start developing your own widgets and widget packages:
 
@@ -44,8 +44,8 @@ Widgets and Widget packages descriptions are avialble here for you to start deve
   Creating a widget | [Creating a widget](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Dashboards/Creating-a-widget.md)|A widget is an Angular component. |
   Creating a widget package | [Creating a widget package](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Dashboards/Creating-a-widgets-package.md)|A widget package is an Angular module.|
   
-### Attributions
+# Attributions
 Please see the attribution file [KognifaiPoseidonNext-Attribution](https://github.com/kognifai/PoseidonNext_Samples/blob/master/KognifaiPoseidonNext-Attribution.pdf)
 
-## License
+# License
 Read the copyright information and terms and conditions for Usage and Development of the software [here](https://github.com/kognifai/Kognifai/blob/master/License.md#copyright--year-kongsberg-digital-as).
