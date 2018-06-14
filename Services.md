@@ -18,4 +18,4 @@ Services are Library packages intented for specific set of tasks. Poseidon Next 
 ## Related Topics  
 * [ Kognifai Home Page ](https://github.com/kognifai/Kognifai/blob/master/README.md)
 * [Developers Getting Started page](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Developers-Getting-Started.md)
-* [Widgets and Dashboards]
+* [Widgets and Dashboards](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Widgets.md)
