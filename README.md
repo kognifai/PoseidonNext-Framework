@@ -35,9 +35,9 @@ In this section, we talk about:
  Tools Menu Service| [Tools Menu Service](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Tools-Menu-Service.md)|The Tools menu service holds list of items that are displayed on the right-hand side menu in Poseidon.  |
 Unit Of Measurement Service| [Unit Of Measurement Service](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Unit-Of-Measurement-Service.md)|This service is used to convert units from one to another.   |
 
-## [Widgets/Dashboard](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Widgets.m)
+## [Widgets/Dashboard](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Widgets.md)
 
-[Widgets](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Widgets.m) are simple content blocks which can be dynamically added in View. Dashboards use widgets to display content on View page.
+[Widgets](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Widgets.md) are simple content blocks which can be dynamically added in View. Dashboards use widgets to display content on View page.
 
 | Widgets/Dashboards | Link | Description | 
 |-------------------------|------------------| ---------------|
