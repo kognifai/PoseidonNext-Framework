@@ -1,17 +1,12 @@
  
 # Poseidon Next  [![Gitter Join the chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kognifai/Lobby)
 
-Poseidon Next is a framework for developers to easily create web applications on the Kognifai ecosystem.
+Poseidon Next is the Kognifai web application framework by using the Kognifai Design System. A developer can create top-notch web applications with less efforts on Kognifai ecosystem.
 
-Developer's Getting Stated page is the home page for you to get started with. Access Developer's Getting Started page from the following table.
-
-
-| Services| Link | Description  
-|-------------------------|---------------|----------------
- Developers Getting Started page | [Developers Getting Started page](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Developers-Getting-Started.md)      | A developer must start reading from this page to have a holistic view of Poseidon Next features |
+[Developers Getting Started page](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Developers-Getting-Started.md) is the home page for you to get started developing your web applications on Kognifai ecosystem. 
 
 
-Services are Library packages intented for specific set of tasks. Poseidon Next offers the following services that cab be used in your application.
+Services are library packages intented for specific set of tasks. Poseidon Next offers the following services that can be used in your application.
 
 | Services| Link | Description  
 |-------------------------|---------------|--------
