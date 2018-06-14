@@ -3,7 +3,17 @@
 
 Poseidon Next is the Kognifai web application framework by using the Kognifai Design System. A developer can create top-notch web applications with less efforts on Kognifai ecosystem.
 
-[Developers Getting Started page](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Developers-Getting-Started.md) is the home page for you to get started developing your web applications on Kognifai ecosystem. 
+In this section, we talk about:
+
+[Developers Getting Started page](#anchors-in-markdown)
+
+[Services](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Services.md)
+
+[Widgets/Dashboard](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Dashboards/Creating-a-widget.md)
+
+[Attributions](https://github.com/kognifai/PoseidonNext-Framework/blob/master/KognifaiPoseidonNext-Attribution.pdf)
+
+### [Developers Getting Started page](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Developers-Getting-Started.md) is the home page for you to get started developing your web applications on Kognifai ecosystem. 
 
 
 Services are library packages intented for specific set of tasks. Poseidon Next offers the following services that can be used in your application.
