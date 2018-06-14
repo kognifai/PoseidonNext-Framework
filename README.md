@@ -23,7 +23,7 @@ Services are library packages intented for specific set of tasks. Poseidon Next 
  Tools Menu Service| [Tools Menu Service](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Tools-Menu-Service.md)|The Tools menu service holds list of items that are displayed on the right-hand side menu in Poseidon.  |
 Unit Of Measurement Service| [Unit Of Measurement Service](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Unit-Of-Measurement-Service.md)|This service is used to convert units from one to another.   |
 
-To create your Widgets and Widget packages, explore their descriptions and sample codes from the following table:
+ Widgets and Widget packages descriptions are avialble here for you to start developing your own widgets and widget packages:
 
 | Widgets/Dashboards | Link | Description | 
 |-------------------------|------------------| ---------------|
