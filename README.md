@@ -13,12 +13,12 @@ In this section, we talk about:
 
 [Attributions](#Attributions)
 
-# [Developers Getting Started page](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Developers-Getting-Started.md) 
-Developers Getting Started page is the home page for you to get started developing your web applications on Kognifai ecosystem. 
+# Developers Getting Started page
+[Developers Getting Started page](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Developers-Getting-Started.md)  is the home page for you to get started on how to  
 
-# Services
+## Services
 
-Services are library packages intented for specific set of tasks. Poseidon Next offers the following services that can be used in your application.
+[Services](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Services.md) are library packages intented for specific set of tasks. Poseidon Next offers the following services that can be used in your application.
 
 | Services| Link | Description  
 |-------------------------|---------------|--------
