@@ -14,15 +14,15 @@ In this section, we talk about:
 [Attributions](#Attributions)
 
 # Developers Getting Started page
-[Developers Getting Started page](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Developers-Getting-Started.md)  is the home page for you to get started on how to  
+[Developers Getting Started page](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Developers-Getting-Started.md)  provides information on prerequisites, how to install and host posedion dev host from NPM globally, how to install test modules, how to create a new Poseidon application, and how to use the Kognifai Design System. 
 
-## Services
+## [Services](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Services.md)
 
 [Services](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Services.md) are library packages intented for specific set of tasks. Poseidon Next offers the following services that can be used in your application.
 
 | Services| Link | Description  
 |-------------------------|---------------|--------
- Authentication Service | [Authentication Service](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Authentication-Service.md)|This service is used in client applications for authenticating against an OIDC identity server. |
+ Authentication Service | [Authentication Service](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Authentication-Service.md)|This service is used in client applications for authenticating against an OIDC identity server. 
  Authorization Service| [Authorization Service](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Authorization-Service.md)|This service helps in managing resources and its associated permissions. |
   Common Data Service | [Common Data Service](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Common-Data-Service.md)|This service is used to fetch data from any time series data provider. |
  Configuration Service | [Configuration Service](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Configuration-Service.md)|This service is used to fetch some basic configurational information for the PoseidonNext.  |
@@ -35,9 +35,9 @@ In this section, we talk about:
  Tools Menu Service| [Tools Menu Service](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Tools-Menu-Service.md)|The Tools menu service holds list of items that are displayed on the right-hand side menu in Poseidon.  |
 Unit Of Measurement Service| [Unit Of Measurement Service](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Unit-Of-Measurement-Service.md)|This service is used to convert units from one to another.   |
 
-# Widgets/Dashboard
+## [Widgets/Dashboard](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Widgets.m)
 
-Widgets and Widget packages descriptions are avialble here for you to start developing your own widgets and widget packages:
+[Widgets](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Widgets.m) are simple content blocks which can be dynamically added in View. Dashboards use widgets to display content on View page.
 
 | Widgets/Dashboards | Link | Description | 
 |-------------------------|------------------| ---------------|
