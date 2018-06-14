@@ -13,9 +13,9 @@ In this section, we talk about:
 
 [Attributions](https://github.com/kognifai/PoseidonNext-Framework/blob/master/KognifaiPoseidonNext-Attribution.pdf)
 
-### [Developers Getting Started page](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Developers-Getting-Started.md) is the home page for you to get started developing your web applications on Kognifai ecosystem. 
+## [Developers Getting Started page](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Developers-Getting-Started.md) is the home page for you to get started developing your web applications on Kognifai ecosystem. 
 
-### Services
+## Services
 
 Services are library packages intented for specific set of tasks. Poseidon Next offers the following services that can be used in your application.
 
