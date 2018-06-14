@@ -7,7 +7,7 @@ In this section, we talk about:
 
 [Developers Getting Started page](#anchors-in-markdown)
 
-[Services](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Services.md)
+[Services](#Services)
 
 [Widgets/Dashboard](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Dashboards/Creating-a-widget.md)
 
@@ -15,6 +15,7 @@ In this section, we talk about:
 
 ### [Developers Getting Started page](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Developers-Getting-Started.md) is the home page for you to get started developing your web applications on Kognifai ecosystem. 
 
+### Services
 
 Services are library packages intented for specific set of tasks. Poseidon Next offers the following services that can be used in your application.
 
