@@ -4,13 +4,13 @@ This is a developer preview and beta version of Poseidon Next.
 # Prerequisites
 [NodeJs 8 or greater](https://nodejs.org/)
 
-To check installed node.js version:
+To check the installed node.js version:
 ```powershell
 node --version
 ```
 # Poseidon Dev Host
 ## Installation
-In order to start developing Poseidon Applications, you should get **@kognifai/poseidon-dev-host**. You can install from NPM globally:
+In order to start developing Poseidon Applications, you must get **@kognifai/poseidon-dev-host**. You can install from NPM globally:
 ```powershell
 npm install -g @kognifai/poseidon-dev-host
 ```
