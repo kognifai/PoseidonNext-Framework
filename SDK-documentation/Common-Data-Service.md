@@ -1,9 +1,9 @@
 # Description
-The common data service is used to fetch data from any time series data provider. For that, the data provider is first register in the common data service tagged with the realm name. 
+The common data service is used to fetch data from any time series data provider. For that, the data provider must be registered at first place in the common data service tagged with the realm name. 
 
 ## Data provider
 
-Common data service supports various type of data provider and they can be registered as below. 
+Common data service supports various type of data provider and they can be registered as following: 
 
 ```typescript
 interface ICommonDataService {
@@ -31,8 +31,8 @@ interface ICommonDataService {
 # Using the CommonDataService
 
 ### Example 
-Lets say we want to visualize realtime data from stock market and use it via application framework.
-We first create stock data provider. In our case. One data provider to get available stocks.
+Let's say, we want to visualize real-time data from stock market and use it via application framework.
+We first create stock data provider. In our case. One data provider to fetch the available stocks.
 
 ```typescript
 export class StocksAsset implements IAssetRead {
