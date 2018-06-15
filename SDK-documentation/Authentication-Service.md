@@ -1,5 +1,6 @@
 # Description
-The authentication service is used in client applications for authenticating against an OIDC identity server. It aims to be simple to use, provides Login and Logout functionality, and requires minimum configuration and dependencies.
+The authentication service is used in client applications for authenticating against an OIDC identity server. It is simple service to use, provides Login and Logout functionality, and requires minimum configuration and dependencies.
+
 
 # Using the Authentication Service
 
