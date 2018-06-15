@@ -1,6 +1,6 @@
 # Description
 
-**Authorization Service** is one of the services in **Application Framework**, which helps in managing resources and its associated permissions.  
+**Authorization Service** is one of the services of **Application Framework**, that helps in managing resources and their associated permissions.  
 
 ## Import
 
@@ -14,14 +14,14 @@ import { AuthorizationService } from '@kognifai/poseidon-ng-authorizationservice
 ```typescript
 constructor(private authorizationService: AuthorizationService) {}
 ```
-This service has the below interface:
+This service has the following interface:
 
 ```typescript
 export interface IAuthorizationService {
     hasPermission(resourceId: string, permissionId: string): Promise<boolean>;
 }
 ```
-The **hasPermission** method can be used to check the access for a given **resourceId** against a specific permission.  This specific permission can be **'View', 'Create', 'Edit',** or **'Remove'** .  These permissions do have a pre-defined **permissionId** associated with it.
+The **hasPermission** method can be used to validate the access for a given **resourceId** against a specific permission.  The specific permission can be: **'View', 'Create', 'Edit',** or **'Remove'** and they do have a pre-defined **permissionId** associated with them.
 
 ```typescript
 export enum Permissions {
