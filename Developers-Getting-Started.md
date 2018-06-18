@@ -16,7 +16,7 @@ npm install -g @kognifai/poseidon-dev-host
 ```
 
 ## Hosting
-After you've globally installed  **@kognifai/poseidon-dev-host** you can start it with the following command:
+After you have globally installed  **@kognifai/poseidon-dev-host** you can start it with the following command:
 ```powershell
 poseidon-dev-host --next
 ```
@@ -139,7 +139,7 @@ To read the documentation head over to [https://designsystem.kognif.ai/](https:/
 
 # Next Steps
 
-Next step is to explore the services and tools that comes with Poseidon Next.
+Next step is to explore the [services](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Services.md) and tools that comes with Poseidon Next.
 
 
 
