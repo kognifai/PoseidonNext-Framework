@@ -1,7 +1,7 @@
-```
+ ```
 This is a developer preview and beta version of Poseidon Next.
 ```
-# Prerequisites
+# Prerequisites [![Gitter Join the chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kognifai/Lobby)
 [NodeJs 8 or greater](https://nodejs.org/)
 
 To check the installed node.js version:
