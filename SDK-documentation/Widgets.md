@@ -1,5 +1,5 @@
 
-### Widgets 
+### Widgets  [![Gitter Join the chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kognifai/Lobby)
 Widgets are simple content blocks which can be dynamically added in View. Dashboards use widgets to display content on View.
  - [Creating a Widget](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Dashboards/Creating-a-widget.md) 
  - [Creating a Widget package](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Dashboards/Creating-a-widgets-package.md) 
