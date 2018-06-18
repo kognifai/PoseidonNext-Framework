@@ -5,7 +5,7 @@ Poseidon Next is the Kognifai web application framework. A developer can create 
 
 In this section, we talk about:
 
-[Developers Getting Started page](#DS)
+[Developers Getting Started page](#Developers-Getting-Started-page)
 
 [Services](#Services)
 
@@ -37,7 +37,7 @@ Unit Of Measurement Service| [Unit Of Measurement Service](https://github.com/ko
 
 ## [Widgets/Dashboard](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Widgets.md)
 
-[Widgets](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Widgets.md) are simple content blocks which can be dynamically added in View. Dashboards use widgets to display content on View page.
+[Widgets](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Widgets.md) are simple content blocks which can be dynamically added in View. Dashboards use widgets to display content on View.
 
 | Widgets/Dashboards | Link | Description | 
 |-------------------------|------------------| ---------------|
