@@ -7,10 +7,9 @@ In this section, we talk about:
 
 [Developers Getting Started page](https://github.com/kognifai/PoseidonNext-Framework#Developers-Getting-Started-page)
 
-[Services](#Services)
-[servoces](https://github.com/kognifai/PoseidonNext-Framework#Services)
+[Services](https://github.com/kognifai/PoseidonNext-Framework##Services)
 
-[Widgets/Dashboard](https://github.com/kognifai/PoseidonNext-Framework#Widgets/Dashboard)
+[Widgets](https://github.com/kognifai/PoseidonNext-Framework#Widgets/Dashboard)
 
 [Attributions](https://github.com/kognifai/PoseidonNext-Framework#Attributions)
 
