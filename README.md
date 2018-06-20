@@ -13,7 +13,7 @@ In this section, we talk about:
 
 [Attributions](https://github.com/kognifai/PoseidonNext-Framework#Attributions)
 
-## [Developers Getting Started page](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Developers-Getting-Started.md) 
+## Developers Getting Started page 
 [Developers Getting Started page](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Developers-Getting-Started.md)  provides information on prerequisites, how to globally install and host posedion dev host from NPM, how to install test modules, how to create a new Poseidon application, and how to use the Kognifai Design System. 
 
 ## [Services](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Services.md)
