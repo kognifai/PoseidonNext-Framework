@@ -6,6 +6,8 @@ Poseidon Next is the Kognifai web application framework. A developer can create 
 In this section, we talk about:
 
 [Developers Getting Started page](#Developers-Getting-Started-page)
+[Developers Getting Started page](https://github.com/kognifai/PoseidonNext-Framework#Developers-Getting-Started-page)
+
 
 [Services](#Services)
 
