@@ -5,15 +5,14 @@ Poseidon Next is the Kognifai web application framework. A developer can create 
 
 In this section, we talk about:
 
-[Developers Getting Started page](#Developers-Getting-Started-page)
 [Developers Getting Started page](https://github.com/kognifai/PoseidonNext-Framework#Developers-Getting-Started-page)
 
-
 [Services](#Services)
+[servoces](https://github.com/kognifai/PoseidonNext-Framework#Services)
 
-[Widgets/Dashboard](#Widgets/Dashboard)
+[Widgets/Dashboard](https://github.com/kognifai/PoseidonNext-Framework#Widgets/Dashboard)
 
-[Attributions](#Attributions)
+[Attributions](https://github.com/kognifai/PoseidonNext-Framework#Attributions)
 
 ## [Developers Getting Started page](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Developers-Getting-Started.md) 
 [Developers Getting Started page](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Developers-Getting-Started.md)  provides information on prerequisites, how to globally install and host posedion dev host from NPM, how to install test modules, how to create a new Poseidon application, and how to use the Kognifai Design System. 
