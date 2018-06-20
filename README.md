@@ -9,14 +9,15 @@ In this section, we talk about:
 
 [Services](https://github.com/kognifai/PoseidonNext-Framework##Services)
 
-[Widgets](https://github.com/kognifai/PoseidonNext-Framework#Widgets/Dashboard)
+[Widgets](https://github.com/kognifai/PoseidonNext-Framework#Widgets)
 
 [Attributions](https://github.com/kognifai/PoseidonNext-Framework#Attributions)
 
-## Developers Getting Started page 
+# [Developers Getting Started page](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Developers-Getting-Started.md)
+https://github.com/kognifai/PoseidonNext-Framework/edit/master/README.md
 [Developers Getting Started page](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Developers-Getting-Started.md)  provides information on prerequisites, how to globally install and host posedion dev host from NPM, how to install test modules, how to create a new Poseidon application, and how to use the Kognifai Design System. 
 
-## [Services](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Services.md)
+# [Services](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Services.md)
 
 [Services](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Services.md) are library packages intented for specific set of tasks. Poseidon Next offers the following services that can be used in your application.
 
@@ -35,7 +36,7 @@ In this section, we talk about:
  Tools Menu Service| [Tools Menu Service](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Tools-Menu-Service.md)|The Tools menu service holds list of items that are displayed on the right-hand side menu in Poseidon.  |
 Unit Of Measurement Service| [Unit Of Measurement Service](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Unit-Of-Measurement-Service.md)|This service is used to convert units from one to another.   |
 
-## [Widgets/Dashboard](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Widgets.md)
+# [Widgets](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Widgets.md)
 
 [Widgets](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Widgets.md) are simple content blocks which can be dynamically added in View. Dashboards use widgets to display content on View.
 
@@ -44,7 +45,7 @@ Unit Of Measurement Service| [Unit Of Measurement Service](https://github.com/ko
   Creating a widget | [Creating a widget](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Dashboards/Creating-a-widget.md)|A widget is an Angular component. |
   Creating a widget package | [Creating a widget package](https://github.com/kognifai/PoseidonNext-Framework/blob/master/SDK-documentation/Dashboards/Creating-a-widgets-package.md)|A widget package is an Angular module.|
   
-## [Attributions](https://github.com/kognifai/PoseidonNext_Samples/blob/master/KognifaiPoseidonNext-Attribution.pdf)
+# [Attributions](https://github.com/kognifai/PoseidonNext_Samples/blob/master/KognifaiPoseidonNext-Attribution.pdf)
 Please see the attribution file [KognifaiPoseidonNext-Attribution](https://github.com/kognifai/PoseidonNext_Samples/blob/master/KognifaiPoseidonNext-Attribution.pdf)
 
 # License
