@@ -1,11 +1,11 @@
 # Description
 
-The Logging Service is used to log messages from client to a centralised repository. Messages are logged based upon the configuration. In configuration we mention the level of logs that we want to save in sever.  E.g we may want to log only error and fatal messages. Logging service will also log the same message in client console. In server we would see this logs in logs folder. When running dev-host we will see this logs in \content\logSettings.json
+The Logging Service is used to log messages from client to a centralised repository. Messages are logged based upon the configuration. In configuration, we mention the level of logs that we want to save in the sever.  E.g. we may want to log only errors and fatal messages. Logging service will also log the same message in client console. In the server, we would see this logs in the logs folder. When running dev-host we will see this logs in \content\logSettings.json
 
 # Using the Logging Service
 
 ## Injecting
-The logging service can be used by injecting it into a class/component, just like any standard Angular service.
+The logging service can be used by injecting it into a class or a component, just like any standard Angular service.
 ```javascript
 export class LoggingComponent {
   constructor(private loggingService: LoggingService) {
@@ -49,9 +49,9 @@ export interface ILoggingConfig {
     endpoint: string;
 }
 ```
-- ```logLevel``` - the level after which we want to keep the messages in server. All messages will be logged in console regardless of this level.
+- ```logLevel``` - the level after which we want to keep the messages in the server. All messages will be logged in console regardless of this level.
 - ```bufferingTime``` - how often we would like to keep posting the messages to server.
-- ```endpoint``` - the endpoint where server accepts log messages.
+- ```endpoint``` - the endpoint where the server accepts the log messages.
 
 Example:
 ```javascript
