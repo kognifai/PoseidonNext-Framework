@@ -1,9 +1,9 @@
 # Description
-The common data service is used to fetch data from any time series data provider. For that, the data provider must be registered at first place in the common data service tagged with the realm name. 
+The common data service is used to fetch data from any time series data provider. You must register the data provider at first place in the common data service tagged with the realm name. 
 
 ## Data provider
 
-Common data service supports various type of data provider and they can be registered as following: 
+Common data service supports various types of data provider and they can be registered as following: 
 
 ```typescript
 interface ICommonDataService {
@@ -31,8 +31,8 @@ interface ICommonDataService {
 # Using the CommonDataService
 
 ### Example 
-Let's say, we want to visualize real-time data from stock market and use it via application framework.
-We first create stock data provider. In our case. One data provider to fetch the available stocks.
+Let us say, we want to visualize real-time data from stock market and use it via application framework.
+We first create stock data provider. In our case, one data provider to fetch the available stocks.
 
 ```typescript
 export class StocksAsset implements IAssetRead {
@@ -49,7 +49,7 @@ export class StocksStreaming implements TimeSeriesStreaming {
 then we inject CommonDataService to our class/component and register our stock data provider.
 
 ## Injecting and Registering the provider 
-The common data service can be used by injecting it into a class/component, just like any standard Angular service and then the dataproviders are registered.
+The common data service can be used by injecting it into a class or a component, just like any standard Angular service and then the data providers are registered.
 ```typescript
 @Injectable()
 export class StockDataService{
@@ -61,7 +61,7 @@ export class StockDataService{
 }
 ```
 
-Now data providers are registered in CommonDataService, we can use this providers to get all available stocks like this.
+Now, data providers are registered in CommonDataService, we can use these providers to get all available stocks as following:
 
 ```typescript
 public getAllStocks(): Promise<StockDetails[]> {
