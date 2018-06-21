@@ -7,13 +7,13 @@ The Date time formatter service is used to specify the date and time format whic
 ## Injecting into a component
 The package can be injected into the requiring component in the following manner.
 1. First import the package into the component
-2. Then inside the constructor function of the component inject it as it is done for any service.
+2. Inside the constructor function of the component, inject it as it is done for any service.
 
 ```typescript
 constructor(private dateTimeService: DateTimeFormatterService) {}
 ```
 
-Once the service is injected into the component then we can access various functions inside it by referring to the local placeholder of the service. The below example shows how to invoke a function from inside a component.
+Once the service is injected into the component then we can access various functions inside it by referring to the local placeholder of the service. The following example shows how to invoke a function from inside a component.
 
 ```javascript
 console.log(this.dateTimeService.getlocale());
@@ -35,13 +35,13 @@ Below are the default values for various date time formats used in the package.
 
 **formatDateTime()**
 
-This method is used to format the date times . 
+This method is used to format the date time . 
 
 ```typescript
 formatDateTime(dateTime: Date, onlyDate: boolean = false, onlyTime: boolean = false, showMilliseconds: boolean = false)
 ```
 
-It formats the date time for the date passed as the first parameter to it. The other parameters are boolean values which if passed will give the requested result.  By default all  parameters except the first parameter are given default value as false. So if we pass only the first parameter it will return the formatted value according to momentjs specifications.
+It formats the date time for the date passed as the first parameter to it. The other parameters are boolean values which if passed will give the requested result.  By default, all  parameters except the first parameter are set with a default value as False. So if you pass only the first parameter, it returns the formatted value according to momentjs specification.
 
 **getDateTimeFormatForMoment()** 
 
@@ -50,7 +50,7 @@ This method is used to get the current date time format of the application.
 ```typescript
 getDateTimeFormatForMoment(onlyDate: boolean = false, onlyTime: boolean = false, showMilliseconds: boolean = false);
 ````
-The function can be directly invoked without passing any parameter in which case it will return the entire date and time format as a string. Or by passing specific parameters we can get the only date format or time format.
+The function can be directly invoked without passing any parameter, in which case, it returns the entire date and time format as  string. Or by passing the specific parameters you can get the either the date format or time format.
 
 **formatDateTimeString()**
 
