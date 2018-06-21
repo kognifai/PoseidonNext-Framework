@@ -1,11 +1,11 @@
 # Description
 
-Configuration service is used to fetch some basic configurational information for the PoseidonNext.  It is registered as one of the providers in **app.module.ts** in **PoseidonNext Core**.  Some of the information that can fetched through this service are **authenticationEndpoint**, **logging**, **date and time formatting**, etc.,  We can even customize and add new properties, which we would like to have as configurable.
+Configuration service is used to fetch some basic configurational information for the PoseidonNext.  It is registered as one of the providers in **app.module.ts** in **PoseidonNext Core**.  Some of the information that can be fetched through this service are **authenticationEndpoint**, **logging**, **date and time formatting**, etc.  We can even customize and add new properties which we wish to have as configurable.
 
 
 ## Injection
 
-To use the configuration service it has to be imported as follows
+To use the configuration service, you must import it as follows:
 
 ```typescript
 import { ConfigurationService } from '@kognifai/poseidon-configuration';
@@ -33,7 +33,7 @@ The configuration information can be accessed through the **config** method.
 ```typescript
 public get config(): T {}
 ```
-Currently, configuration service revolves around **IConfiguration** interface.  This interface can be modified to suit our application's needs.
+Currently, configuration service revolves around **IConfiguration** interface.  This interface can be modified to suit our application's need.
 ```typescript
 export interface IConfiguration {
     authenticationEndpoint?: string;
@@ -41,7 +41,7 @@ export interface IConfiguration {
     formatting?: IDateTimeFormatterConfig;
 }
 ```
-The above **IConfiguration** interface in itself is a package and has to be imported:
+The above **IConfiguration** interface itself is a package and has to be imported:
 ```typescript
 import { IConfiguration } from '@kognifai/poseidon-configurationinterface';
 ```
@@ -76,7 +76,7 @@ export class ExampleComponent  {
 
 ## Customizing
 
-In order to customize the configuration, we need to add our custom properties to **config.json**.  This file is located at the root level of ```PoseidenNext's Core``` folder.  The default **config.json** is as below.
+In order to customize the configuration, we need to add our custom properties to **config.json**.  This file is located at the root level of ```PoseidenNext's Core``` folder.  The default **config.json** is as following.
 
 ```json
 {
@@ -112,7 +112,7 @@ In order to customize the configuration, we need to add our custom properties to
     }
 }
 ```
-To demonstrate customization, we add **"apiEndpoint"** as one of the new property to the above **config.json**. 
+To demonstrate customization, we add **"apiEndpoint"** as a new property to the above **config.json**. 
 
 ```json
 {
