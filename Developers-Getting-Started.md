@@ -139,7 +139,7 @@ To read the documentation head over to [https://designsystem.kognif.ai/](https:/
 
 # Next Steps
 
-Next step is to explore the [services](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Services.md) and tools, they are a part of Poseidon Next.
+Next step is to explore the [Services](Services.md) and tools, they are a part of Poseidon Next.
 
 
 
