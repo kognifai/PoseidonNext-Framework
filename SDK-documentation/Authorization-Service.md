@@ -1,6 +1,6 @@
 # Description
 
-**Authorization Service** is one of the services of **Application Framework**, that helps in managing resources and their associated permissions.  
+**Authorization Service** is one of the services of **Application Framework** that helps in managing resources and their associated permissions.  
 
 ## Import
 
@@ -32,7 +32,7 @@ export enum Permissions {
 }
 ```
 
-## Example usage of the authorization service is shown below:
+## Example for usage of the authorization service is shown below:
 
 ```typescript
 import { IResource, Permissions } from '@kognifai/poseidon-authorizationservice';
