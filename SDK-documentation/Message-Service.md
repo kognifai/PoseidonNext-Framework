@@ -1,10 +1,10 @@
 # Description
 
-The Message Service is used to show users different kinds of messages and toasters when there is  need for showing information or asking for confirmation.
+The Message Service is used to show users different types of messages and toasters when there is  a need for showing information or asking for a confirmation.
 
 ## Architecture
 
-The messaging service comprises mainly of two parts.
+The messaging service has mainly two parts.
 1. A message component which is used as a directive and placed  at the end of the app.component.html file. 
 2. A message service which contains all the methods and configurations 
 
@@ -13,11 +13,11 @@ The messaging service comprises mainly of two parts.
 
 ## Injecting
 
-The message  service can be used by injecting it into a class/component, just like any standard Angular service.
+The message  service can be used by injecting it into a class or a ,component, just like any standard Angular service.
 ```javascript
 import { MessageService } from './../service.message';
 ```
-Next we need to inject the service into the constructor function of the component.
+Next, we need to inject the service into the constructor function of the component.
 
 ```javascript
 constructor(private messageservice: MessageService) { }
@@ -96,8 +96,8 @@ The basic syntax of the notification/toaster  functions are as follows.
 `toastType(message: string, title?: string, timeout?: number)`
 
 - ```message```  It is the content of the toaster body. It is a mandatory argument.
-- ```title``` It is the caption of the toaster . It is an optional parameter. If this argument is not provided the service will take a default value based on the type of toaster .
-- ```timeout```  It is the timeout for the notification. It is an optional argument.If it is not provided the default timeout will be set to 3000 ms.
+- ```title``` It is the caption of the toaster . It is an optional parameter. If this argument is not provided the service takes a default value based on the type of toaster .
+- ```timeout```  It is the timeout for the notification. It is an optional argument.If it is not provided the default timeout is set to 3000 ms.
 
 Four toaster functions are provided in the package.
 1. **toastInfo**
