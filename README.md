@@ -13,10 +13,10 @@ In this section, we talk about:
 
 [Attributions](#Attributions)
 
-# [Developers Getting Started page](Developers-Getting-Started.md)
+# Developers Getting Started page
 [Developers Getting Started page](Developers-Getting-Started.md)  provides information on prerequisites, how to globally install and host posedion dev host from NPM, how to install test modules, how to create a new Poseidon application, and how to use the Kognifai Design System. 
 
-# [Services](Services.md)
+# Services
 
 [Services](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Services.md) are library packages intented for specific set of tasks. Poseidon Next offers the following services that can be used in your application.
 
