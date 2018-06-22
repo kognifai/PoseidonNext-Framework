@@ -35,7 +35,7 @@ In this section, we talk about:
  Tools Menu Service| [Tools Menu Service](SDK-documentation/Tools-Menu-Service.md)|The Tools menu service holds list of items that are displayed on the right-hand side menu in Poseidon.  |
 Unit Of Measurement Service| [Unit Of Measurement Service](SDK-documentation/Unit-Of-Measurement-Service.md)|This service is used to convert units from one to another.   |
 
-# [Widgets](SDK-documentation/Widgets.md)
+# Widgets
 
 [Widgets](SDK-documentation/Widgets.md) are simple content blocks which can be dynamically added in View. Dashboards use widgets to display content on View.
 
@@ -44,7 +44,7 @@ Unit Of Measurement Service| [Unit Of Measurement Service](SDK-documentation/Uni
   Creating a widget | [Creating a widget](SDK-documentation/Dashboards/Creating-a-widget.md)|A widget is an Angular component. |
   Creating a widget package | [Creating a widget package](SDK-documentation/Dashboards/Creating-a-widgets-package.md)|A widget package is an Angular module.|
   
-# [Attributions](KognifaiPoseidonNext-Attribution.pdf)
+# Attributions
 Please see the attribution file [KognifaiPoseidonNext-Attribution](KognifaiPoseidonNext-Attribution.pdf)
 
 # License
