@@ -5,7 +5,7 @@ Poseidon Next is the Kognifai web application framework. A developer can create 
 
 In this section, we talk about:
 
-[Developers Getting Started page](#Developers-Getting-Started-page)
+[Developers Getting Started page](#Developers-Getting-Started-page-)
 
 [Services](#Services)
 
@@ -13,10 +13,10 @@ In this section, we talk about:
 
 [Attributions](#Attributions)
 
-# Developers Getting Started page
+## Developers Getting Started page
 [Developers Getting Started page](Developers-Getting-Started.md)  provides information on prerequisites, how to globally install and host posedion dev host from NPM, how to install test modules, how to create a new Poseidon application, and how to use the Kognifai Design System. 
 
-# Services
+## Services
 
 [Services](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Services.md) are library packages intented for specific set of tasks. Poseidon Next offers the following services that can be used in your application.
 
@@ -35,7 +35,7 @@ In this section, we talk about:
  Tools Menu Service| [Tools Menu Service](SDK-documentation/Tools-Menu-Service.md)|The Tools menu service holds list of items that are displayed on the right-hand side menu in Poseidon.  |
 Unit Of Measurement Service| [Unit Of Measurement Service](SDK-documentation/Unit-Of-Measurement-Service.md)|This service is used to convert units from one to another.   |
 
-# Widgets
+## Widgets
 
 [Widgets](SDK-documentation/Widgets.md) are simple content blocks which can be dynamically added in View. Dashboards use widgets to display content on View.
 
