@@ -2,7 +2,7 @@
 
 Home page is the default landing page/view in Poseidon.   It contains a default icon that enables you to add your favourite items on this page.  The following is the initial page:
 
- ![image.png](Images/image-86f8e543-b5af-44e3-be89-20d94b8c8a71.png)
+ ![image.png](images/image-86f8e543-b5af-44e3-be89-20d94b8c8a71.png)
 
 Adding favourite item on the home page is facilitated by **FavoritesService**.
 
@@ -85,11 +85,11 @@ When the user wants to **remove** a navigation item, the following method is inv
 unpin(item: IFavorite): Promise<boolean> { ... }
 ```
 
- ![image.png](Images/image-1e9ab818-c985-4085-91e5-7c4ac11496df.png)
+ ![image.png](images/image-1e9ab818-c985-4085-91e5-7c4ac11496df.png)
 
 If the user does a **long press** on the favourite item,  you get the option **'X'** on the icon.  Upon clicking the **'X'** on the favourite item, it is removed from the home page.  To remove the **'X'** symbol, you can click anywhere on the screen and the icon  returns to normal.
 
- ![image.png](Images/image-89a1beaa-b9aa-4837-b4a1-319ac91a0e6f.png)
+ ![image.png](images/image-89a1beaa-b9aa-4837-b4a1-319ac91a0e6f.png)
 
 A simple sample component using **FavoritesService** is as following:
 
