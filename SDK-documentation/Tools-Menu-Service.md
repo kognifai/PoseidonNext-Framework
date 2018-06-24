@@ -1,10 +1,10 @@
 # Description
-The tools menu service holds list of items that are displayed in the right-hand side menu in Poseidon. It is used by application developers in order to add custom commands in the tools menu. 
+Tools menu service holds list of items that are displayed in the right-hand side menu in Poseidon. It is used by application developers in order to add custom commands in the tools menu. 
 
 ## Definitions
-- **Tools menu**: the right-aligned sidebar in Poseidon, toggled by the following button ![image.png](images/image-72f21012-8af3-45f4-8574-67e4f8cd36ea.png) . It shows list of items (buttons) provided by the tools menu service.
-- **Tools menu item:** represents button in the tools menu with label, associated action and possibly list of child items that are displayed nested under the parent. 
-- **Tools menu service**: Angular service provided by the platform so that applications can register tools menu items. 
+- **Tools menu:** The right-aligned sidebar in Poseidon, toggled by the following button ![image.png](images/image-72f21012-8af3-45f4-8574-67e4f8cd36ea.png) . It shows a list of items (buttons) provided by the Tools menu service.
+- **Tools menu item:** Represents button in the Tools menu with label, associated action and possibly a list of child items that are displayed nested under the parent. 
+- **Tools menu service:** Angular service provided by the platform so that applications can register Tools menu items. 
 
 
 # Usage
@@ -35,7 +35,8 @@ export class ToolsMenuItem {
 ```
 
 ## Injecting
-The tools menu service is standard Angular service provided by the platform and can be used by injecting it into your components.
+
+The Tools menu service is standard Angular service provided by the platform and can be used by injecting it into your components.
 ```typescript
 @Component( ... )
 export class ToolsMenuTestPageComponent {
@@ -44,13 +45,15 @@ export class ToolsMenuTestPageComponent {
 ```
 
 ## Registering tools menu items
-The register method accepts one or more ```ToolsMenuItem``` objects and add them to the tools menu.  
+
+The register method accepts  one or more ```ToolsMenuItem``` objects and add them to the Tools menu.  
 ```typescript
 register(...items: ToolsMenuItem[]): void
 ```
 
 ### Simple usage
-The following code adds single item in the tools menu with specified label and ```onSelected``` handler:
+
+The following code adds single item in the Tools menu with specified label and ```onSelected``` handler:
 ```typescript
 ngOnInit(): void {
     const myToolsMenuItem = new ToolsMenuItem();
@@ -63,7 +66,8 @@ ngOnInit(): void {
 ```
 
 ### Multiple items
-Multiple items can be registered the following way:
+
+Multiple items can be registered in the following way:
 ```typescript
 ngOnInit(): void {
     const item1 = new ToolsMenuItem();
@@ -81,6 +85,7 @@ ngOnInit(): void {
 ```
 
 ### With icons
+
 Each menu item can have icon displayed before its label. The icon is specified by its name. The available icons are provided by Design System as "sprites".
 ```typescript
 ngOnInit(): void {
@@ -101,7 +106,8 @@ ngOnInit(): void {
 ```
 
 ### Hierarchical menu
-Tools menu items can have children (sub-items). They are displayed bellow their parent and initially are hidden (collapsed). Parent items have "expand" icon to indicate that nested items are available. Clicking a parent item shows its children list. Multiple nesting levels (children with grandchildren, etc.) are supported.
+
+Tools menu items can have children (sub-items); they are displayed below their parent and initially are hidden (collapsed). Parent items have "expand" icon to indicate that nested items are available. When you click a parent item, it shows its children list. Multiple nesting levels (children with grandchildren, etc.) are supported.
 ```typescript
 ngOnInit(): void {
     const item1 = new ToolsMenuItem();
@@ -127,14 +133,16 @@ ngOnInit(): void {
 ```
 
 ## Getting the registered tools menu items
-The tools menu service provides array of already registered items. They can be managed (added, edited, removed) at any time by the application that uses the service. 
+
+The Tools menu service provides array of already registered items; they can be managed (added, edited, or removed) at any time by the application that uses the service. 
 ```typescript
 const toolsMenuItems: ToolsMenuItem[] = this.toolsMenuService.items;
 toolsMenuItems[0].label = 'New label';
 ```
 
-## Clearing the tools menu
-Applications are responsible to clear the tools menu when the user navigates away. As general rule, every component adds tools menu items during initialization and clears the tools menu on exit. Use the following code to achieve that: 
+## Clearing the Tools menu
+
+Applications are responsible to clear the Tools menu when the user navigates away. As a general rule, every component adds Tools menu items during initialization and clears the Tools menu on exit. Use the following code to achieve that: 
 ```typescript
 ngOnDestroy(): void {
     this.toolsMenuService.clear();
@@ -143,7 +151,8 @@ ngOnDestroy(): void {
 
 
 # Comprehensive example
-Below is a sample component that demonstrates the features of the tools menu service:
+
+The following is a sample component that demonstrates the features of the tools menu service:
 ```typescript
 export class ToolsMenuTestPageComponent implements OnInit, OnDestroy {
     constructor(
@@ -240,6 +249,6 @@ export class ToolsMenuTestPageComponent implements OnInit, OnDestroy {
     private  print(): void { console.log('Print clicked'); }
 }
 ```
-That example will create the following tools menu: 
+The example will create the following tools menu: 
 
 ![image.png](images/image-f2fc87e8-a6c3-4010-8951-bfaac98306e5.png)
