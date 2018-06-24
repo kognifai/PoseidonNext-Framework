@@ -1,10 +1,11 @@
 # Description
+
 A widgets package is an Angular module that currently has two main purposes:
  - Declares widget components (so they are visible to other Angular modules)
  - Registers widgets with the Dashboards framework (so they are visible to dashboards creators)
 
 # Prerequisites
-The **Kognifai Dashboards**  package is required in order to create widgets packages. It can be installed into the destination project like so:
+The **Kognifai Dashboards**  package is required in order to create widget packages. It can be installed into the destination project in this manner:
 ```
 npm install @kognifai/poseidon-dashboards --save
 ```
@@ -40,7 +41,7 @@ export class DashboardsWidgetService {
     getWidget(type: string): Widget { }
 
     /**
-     * Retrieves the number of all registered wdigets.
+     * Retrieves the number of all registered widgets.
      */
     count(): number { }
 }
@@ -84,7 +85,7 @@ export interface Widget {
 ```
 
 # Implementation
-Here is how the project's main module should look like:
+Here is how the project's main module must look like:
 ```typescript
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
