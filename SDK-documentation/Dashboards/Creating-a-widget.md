@@ -1,35 +1,42 @@
 
 # Description
-A widget is an Angular component that can be dynamically added to a view, rearranged and configured, saved into a view and loaded by Dashboards. In its essence, it is a configurable piece of logic with its corresponding UI presentation.
+
+A widget is an Angular component that can be dynamically added to a view, rearranged and configured, saved into a view, and loaded by Dashboards. In its essence, it is a configurable piece of logic with its corresponding UI presentation.
 
 # Prerequisites
+
 The **Kognifai Dashboards**  package is required in order to create widgets. It can be installed into the destination project like so:
 ```
 npm install @kognifai/poseidon-dashboards --save
 ```
 
 # Views
+
 A widget consists of two UI parts/views:
 
 ## Presentation part
 This is the main view of the widget. This is the presentation that the user sees when they insert the widget into a dashboard.
+
 An example of a widget view is:
 
 ![widget.png](Images/widget-6b5c116c-dcc0-47ed-bddf-c1838a36610e.png)
 
-*Note the buttons in the top right corner. They are utility buttons which bring up the configuration view of the widget and remove it from the dashboard correspondingly. They are provided by the Dashboards framework and are not part of the widget view itself.
+>Note the buttons in the top-right corner; they are utility buttons which bring up the configuration view of the widget and remove it from the dashboard correspondingly. They are provided by the Dashboards framework and are not part of the widget view itself.
 
 ## Configuration part
+
 A widget also must have a view/means to interact with its configuration.
+
 An example of a widget configuration view is:
 
 ![widget_config.png](Images/widget_config-896a4f67-799c-4634-b91a-734e1c48b71e.png)
 
-*Note the buttons in the bottom right corner. They are utility buttons which persist or discard the changes made to the widget configuration. They are provided by the Dashboards framework and are not part of the widget configuration view itself.
+*Note the buttons in the bottom-right corner; they are utility buttons which persist or discard the changes made to the widget configuration. They are provided by the Dashboards framework and are not part of the widget configuration view itself.
 
 # Implementation
+
 A widget is implemented as a pair of Angular components (main and edit).
-Each of them should have the typical elements in place: 
+Each of them must have the typical elements in place: 
  - A **.ts** file for component logic
  - A **.html** file that contains the UI definition
  - A **.css** file that holds its styles
@@ -105,10 +112,12 @@ export interface WidgetConfiguration {
 ```
 
 ## Components
-In order for the paired components to be a valid Dashboards widget, they must inherit certain interfaces.
+
+In order for the paired components to be a valid Dashboards' widget, they must inherit certain interfaces.
 
 ### Main component
-The main widget component should inherit from the ```WidgetComponent``` interface, like so:
+
+The main widget component must inherit from the ```WidgetComponent``` interface, like so:
 
 ```typescript
 import { WidgetComponent } from '@kognifai/poseidon-dashboards';
@@ -118,16 +127,16 @@ import { WidgetComponent } from '@kognifai/poseidon-dashboards';
 export class DemoWidgetComponent implements WidgetComponent { }
 ```
 
-Implementation of this interface means that the component class will have to define some members:
-- **configuration** - a property of the **WidgetConfiguration** interface type. Any widget must have  **configuration** property that will provide the definition of what the user can edit for the widget via the configuration component
+Implementation of this interface means that the component class must have to define some members:
+- **configuration** - a property of the **WidgetConfiguration** interface type. Any widget must have  **configuration** property that provides the definition of what the user can edit for the widget via the configuration component
 - **init()** - executed when:
-  - the widget is first added to the dashboard
-  - the widget is loaded initially when the dashboard is loaded
-  - the configuration of the widget is changed
-- **update()** - executed each second. A suitable place for refreshing/pulling data from a service
-- **collectAddresses()** - necessary for the framework to be able to collect all configured timeseries addresses from the widget.
+  - The widget is first added to the dashboard
+  - The widget is loaded initially when the dashboard is loaded
+  - The configuration of the widget is changed
+- **update()** - Executed each second. A suitable place for refreshing or pulling data from a service
+- **collectAddresses()** - Necessary for the framework to be able to collect all configured time series addresses from the widget.
 Currently **NOT** implemented in framework.
-- **collectSubscriptions()** - necessary for the framework to be able to collect all data subscriptions objects and dispose of them.
+- **collectSubscriptions()** - Necessary for the framework to be able to collect all data subscriptions objects and dispose of them.
 Currently **NOT** implemented in framework.
 
 Here is an example of a full widget component definition:
@@ -186,10 +195,10 @@ For the sake of completeness, here are the .html and .css files contents for thi
 }
 ```
 
-*Note that these interface definitions may be subject to breaking changes in future releases.
+> Note that these interface definitions may be subject to breaking changes in future releases.
 
 ### Edit component
-The component that will represent the UI for the **configuration** object of the widget should implement the **WidgetEditComponent** interface. Currently the only member it defines is the configuration object itself.
+The component that will represent the UI for the **configuration** object of the widget should implement the **WidgetEditComponent** interface. Currently, the only member it defines is the configuration object itself.
 
 Here is a full example of a widget's **edit component**:
 
@@ -216,4 +225,5 @@ export class DemoWidgetEditComponent implements WidgetEditComponent {
 ```
 
 ## Registration
+
 For information on how to register a widget, so it can be available to Dashboards, please see the [Create a widgets package](https://github.com/kognifai/PoseidonNext-Framework/wiki/Creating-a-widgets-package) article.
