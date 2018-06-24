@@ -1,10 +1,11 @@
 # Description
 
-The Logging Service is used to log messages from client to a centralised repository. Messages are logged based upon the configuration. In configuration, we mention the level of logs that we want to save in the sever.  E.g. we may want to log only errors and fatal messages. Logging service will also log the same message in client console. In the server, we would see this logs in the logs folder. When running dev-host we will see this logs in \content\logSettings.json
+Logging Service is used to log messages from client to a centralised repository. Messages are logged based upon the configuration. In the configuration, we mention the level of logs that we want to save in the server.  For example, we may want to log only errors and fatal messages. Logging service also logs the same message in the client console. In the server, we would see this logs in the logs folder. When running dev-host we see this logs in \content\logSettings.json
 
 # Using the Logging Service
 
 ## Injecting
+
 The logging service can be used by injecting it into a class or a component, just like any standard Angular service.
 ```javascript
 export class LoggingComponent {
@@ -17,7 +18,8 @@ export class LoggingComponent {
 
 ## Logging a message
 
-We can log messages of type trace, debug, info, warn, error, fatal as below.
+We can log the following message types of: trace, debug, info, warn, error, and fatal:
+
 ```typescript
 trace(message: string, contextName?: string);
 debug(message: string, contextName?: string);
@@ -26,7 +28,7 @@ warn(message: string, contextName?: string);
 error(message: string, contextName?: string);
 fatal(message: string, contextName?: string);
 ```
-- ```message``` - the message that we want to log
+- ```message``` - message that we want to log
 - ```contextName``` - this can take component name, service name, [the context] which can be later used for grouping messages.
 
 
@@ -41,7 +43,9 @@ this.loggingService.info('this is an info message');
 ```
 
 ## Configuration
-The configuration required to setup logging service.
+
+The configuration require to setup logging service.
+
 ```javascript
 export interface ILoggingConfig {
     logLevel: LogLevel;
