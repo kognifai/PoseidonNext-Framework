@@ -45,7 +45,7 @@ Unit Of Measurement Service| [Unit Of Measurement Service](SDK-documentation/Uni
   Creating a widget package | [Creating a widget package](SDK-documentation/Dashboards/Creating-a-widgets-package.md)|A widget package is an Angular module.|
   
 ## Attributions
-Please see the attribution file [KognifaiPoseidonNext-Attribution](KognifaiPoseidonNext-Attribution.pdf)
+Please see the attribution file [Kognifai PoseidonNext-Attribution](KognifaiPoseidonNext-Attribution.pdf)
 
 ## License
 Read the copyright information and terms and conditions for Usage and Development of the software [here](https://github.com/kognifai/Kognifai/blob/master/License.md#copyright--year-kongsberg-digital-as).
