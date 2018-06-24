@@ -1,6 +1,6 @@
 # Description
 
-**Statistics service** is one of the service provided by **Poseidon Application Framework**.  This service's primary purpose is to collect information relating to various trackable **events**, **duration** a user spend on certain page, and other **metrices**, which is stored in backend. Backend may choose to post it further to Azure's Application Insights or in its own local repository.
+**Statistics service** is one of the service provided by **Poseidon Application Framework**.  The primary purpose of this service is to collect information pertinent to various trackable **events**, **duration**. A user spends time on a certain page, and other **metrices** which is stored in backend. Backend may choose to post it further to Azure's Application Insights or in its own local repository.
 
 ## Import
 
@@ -14,7 +14,7 @@ constructor(private statisticsService: StatisticsService) { }
 ```
 
 
-This service collects data, which is of type **IStatisticRecord**.
+This service collects data which is  **IStatisticRecord** type.
 
 ```typescript
 export interface IStatisticRecord {
@@ -32,7 +32,7 @@ export enum StatisticOperationTypes {
     TrackMetric = 2
 }
 ```
-This service exposes the below method, which facilitates the user to store records.
+This service exposes the below method which facilitates the user to store records.
 
 ```typescript
 export interface IStatisticsCollectionService  {
