@@ -1,20 +1,21 @@
 # Description
 
-The Unit Of Measurement Service (UOM) is used to convert one unit from another convertible unit. This service is the single source of truth for any units and dimensions specific operations.
+Unit of Measurement (UOM) service  is used to convert units from one to another unit. This service is the single source of truth for any units and dimensions specific operations.
 
 # Using the Unit Of Measurement Service
 
 ## Injecting
-The Unit Of Measurement Service can be used by injecting it into a class/component, just like any standard Angular service.
 
-First import the following two lines of code into the component where Unit Of Measurement Service is to be used.
+Unit Of Measurement service can be used by injecting it into a class or a component, just like any standard Angular service.
+
+First, import the following two lines of code into the component where Unit Of Measurement Service is to be used.
 
 ```javascript
 import { UOMService } from '../your relative path';
 import { UnitConversionService, IUnitConversionService, IUnitSet, IUnit } from '@kognifai/poseidon-unitofmeasurementservice';
 ```
 
-And  then inject it into the constructor in the following manner.
+And then inject it into the constructor in the following manner:
 
 ```javascript
 constructor(private uomService: UOMService) { }
