@@ -10,12 +10,14 @@ node --version
 ```
 # Poseidon Dev Host
 ## Installation
+
 In order to start developing Poseidon Applications, you must get **@kognifai/poseidon-dev-host**. You can install from NPM globally:
 ```powershell
 npm install -g @kognifai/poseidon-dev-host
 ```
 
 ## Hosting
+
 After you have globally installed  **@kognifai/poseidon-dev-host** you can start it with the following command:
 ```powershell
 poseidon-dev-host --next
@@ -27,6 +29,7 @@ Opening the browser on this URL loads up the Poseidon Core.
 The host comes with a developer friendly security solution. *Type in any username and password to enter the application*. A full security service will be provided in a future release.
 
 # Installing test modules
+
 There are several test modules that can be used as examples for the services provided by the framework. 
 Start by creating an empty directory in your local work directory:
 ```powershell
@@ -49,13 +52,13 @@ npm install @kognifai/poseidon-uomservicetestpage
 ```
 
 You can now tell **poseidon-dev-host** to load these modules:
-(Remember stop the **poseidon-dev-host** if it is currently running. You can do that by pressing Ctrl+C in the console)
+(Remember stop the **poseidon-dev-host** if it is currently running. You can do that by pressing **Ctrl+C** in the console)
 
 ```powershell
 poseidon-dev-host --next C:\poseidon-apps\test-modules\node_modules\@kognifai
 ```
-The last parameter specifies the directory in which **poseidon-dev-host** will look for modules. A module is considered a directory which contains a module manifest, so the rest of the subdirectories under node_modules (if any) will be ignored.
-When the command is executed, the host should output a message listing all the modules' manifests it found, similar to:
+The last parameter specifies the directory in which **poseidon-dev-host** looks for modules. A module is considered a directory which contains a module manifest, so the rest of the subdirectories under node_modules (if any) are ignored.
+When the command is executed, the host must generate a message listing all the modules, manifests as output, similar to:
 ```
 Scanning modules in C:\poseidon-apps\test-modules\node_modules
                 kognifai-poseidon-authenticationservicetestpage.manifest.json
@@ -67,6 +70,7 @@ Open a browser at http://localhost:8080 in order to see the modules:
 ![image.png](.attachments/image-18c248bf-8ae7-445f-a2c6-99aae727fe3c.png)
 
 ## Looking at the module sources 
+
 You can open the source code for each of the test modules in VS Code:
 ```powershell
 code C:\poseidon-apps\test-modules\node_modules\@kognifai/poseidon-authenticationservicetestpage
@@ -75,6 +79,7 @@ The test modules provide examples on how to use the services provided by the fra
 
 # Creating a new Poseidon Application
 ## Installing Yeoman
+
 If you have not yet installed Yeoman, you can do so by executing this command:
 ```powershell
 npm install -g yo
@@ -87,14 +92,14 @@ npm install -g @kognifai/generator-poseidon
 ```
 
 ## Using the generator
-You should use the generator in an empty directory:
+You must use the generator in an empty directory:
 ```powershell
 mkdir c:\poseidon-apps\modules\my-first-app
 cd c:\poseidon-apps\modules\my-first-app
 yo @kognifai/poseidon:module
 ```
 **NOTE:**
-It is recommended that the application name specified when using the Yeoman generator is the same as the root folder name on disk. If not, open your [my-app-name].manifest.json file after the application Yeoman generator has run and update the path variable to match your application root folder on disk:
+It is recommended that the application name specified, when using the Yeoman generator is same as the root folder name on disk. If not, open your [my-app-name].manifest.json file after the application Yeoman generator has run and updated the path variable to match your application root folder on disk:
 
 ```"path": "/Server/Modules/[root_folder_on_disk]/dist/bundles/testapp.umd#AppModule"```
 
@@ -123,7 +128,7 @@ Open a browser at http://localhost:8080 in order to see your application:
 ![image.png](.attachments/image-033ab986-fa95-4569-ab25-151c74bca8e9.png)
 
 ## Running side-by-side with test modules
-As NPM was used to install the test modules, they're located under the **c:\poseidon-apps\test-modules\node_modules** directory.
+As NPM was used to install the test modules, they are located under the **c:\poseidon-apps\test-modules\node_modules** directory.
 You can simply copy them to your new **C:\poseidon-apps\modules** directory, and you can have them loaded side-by-side with your newly created applications. 
 
 ![image.png](.attachments/image-13c57682-818a-4152-9f29-564db446b268.png)
@@ -131,7 +136,7 @@ You can simply copy them to your new **C:\poseidon-apps\modules** directory, and
 
 # Using the Kognifai Design System
 
-Kognifai Design System is a collection of design patterns, components and guidelines for creating unified and coherent UI in the Kognifai ecosystem.
+Kognifai Design System is a collection of design patterns, components, and guidelines for creating unified and coherent UI in the Kognifai ecosystem.
 
 It contains a set of easy-to-use HTML/CSS components. It does not include JavaScript since we aim to be versatile and technology agnostic. Use it together with any JS framework.
 
