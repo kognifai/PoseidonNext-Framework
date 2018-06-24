@@ -1,6 +1,7 @@
 
 # Description
-The settings service is used to manage various application and user-specific setting. Settings are organized by setting types. The service allows storing single or multiple settings for a setting type, depending on the setting type.
+
+Settings Service is used to manage various application and user-specific settings. Settings are organized by setting types. This service allows storing single or multiple settings for a setting type, depending on the setting type.
 
 The content (Value) of a setting is not specified, it can be anything (e.g. json, xml, plain text) and the framework is not interested in it. Understanding the value is a responsibility of the application (module) which owns the setting.
 
@@ -9,7 +10,8 @@ The content (Value) of a setting is not specified, it can be anything (e.g. json
 # Using the Settings Service
 
 ## Injecting
-The setting service can be used by injecting it into a class/component, just like any standard Angular service.
+
+The setting service can be used by injecting it into a class or a component, just like any standard Angular service.
 ```javascript
 export class SettingsServiceTestPageComponent {
    constructor(private settingsService: SettingsService) {
