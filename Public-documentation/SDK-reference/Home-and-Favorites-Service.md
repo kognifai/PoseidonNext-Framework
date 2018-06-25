@@ -2,7 +2,7 @@
 
 The home screen is the default landing page/view in Poseidon.   It would contain a default icon which enables user to add favourite items on this screen.  The initial screen would be looking like as below:
 
- ![image.png](.attachments/image-86f8e543-b5af-44e3-be89-20d94b8c8a71.png)
+ ![image.png](/Public-documentation/images/image-86f8e543-b5af-44e3-be89-20d94b8c8a71.png)
 
 Adding favourite item onto the home screen is facilitated by **FavoritesService**.
 
@@ -52,7 +52,7 @@ export class FavoitesTestPageComponent {
 }
 ```
 
-When the user clicks/presses the **Add Favorite** button, it opens an interface where user can search/filter items, which they would like to add/remove as a favourite item.  The search interface by default is prepopulated with all navigation items.  The navigation items are fetched using the below method. 
+When the user clicks/presses the **Add Favorite** button, it opens an interface where user can search/filter items, which they would like to add/remove as a favourite item.  The search interface by default is prepopulated with all navigation items.  The navigation items are fetched using the below method.
 
 ```typescript
 load(): Promise<IFavorite> { ... }
@@ -85,11 +85,11 @@ When the user wants to **remove** a navigation item as favourite, below method i
 unpin(item: IFavorite): Promise<boolean> { ... }
 ```
 
- ![image.png](.attachments/image-1e9ab818-c985-4085-91e5-7c4ac11496df.png)
+ ![image.png](/Public-documentation/images/image-1e9ab818-c985-4085-91e5-7c4ac11496df.png)
 
 If the user does a **long press** on the favourite item,  they would get the option **'X'** on the icon.  Upon clicking the **'X'** on the favourite item, it would be removed from the home screen.  To remove the **'X'** symbol, the user can click anywhere on the screen and the icon would return to normalcy.
 
- ![image.png](.attachments/image-89a1beaa-b9aa-4837-b4a1-319ac91a0e6f.png)
+ ![image.png](/Public-documentation/images/image-89a1beaa-b9aa-4837-b4a1-319ac91a0e6f.png)
 
 A simple sample component using **FavoritesService** is as below:
 
@@ -99,9 +99,9 @@ import { FavoritesService } from '../../services/favorites.service';
 export class ExampleComponent {
 
     const resultItem: IFavorite;
-	
+
     constructor(private favoritesService: FavoritesService) { }
-	
+
     loading(): void {
         this.favoritesService.load().then((favorites: IFavorite[]) => {
             console.log('Did load items and the count is ', favorites.length);
@@ -109,7 +109,7 @@ export class ExampleComponent {
             console.log('Error occurred ', error);
         });
     }
-	
+
     searching(searchString: string): void {
         this.favoritesService.search(searchString).then(results: IFavorite[]) => {
             console.log('Did fetch items for searched string and the count is ', results.length);
@@ -117,16 +117,16 @@ export class ExampleComponent {
             console.log('Error occurred ', error);
         });
     }
-	
-    pinning(resultItem: IFavorite): void { 
+
+    pinning(resultItem: IFavorite): void {
         this.favoritesService.pin(resultItem).then(() => {
             console.log('Successfully added as favorite'):
         }).catch((error) => {
             console.log('Error occurred ', error);
         });
     }
-	
-    unpinning(resultitem: IFavorite): void { 
+
+    unpinning(resultitem: IFavorite): void {
         this.favoritesService.unpin(resultItem).then(() => {
             console.log('Successfully removed as favorite'):
         }).catch((error) => {
@@ -134,8 +134,8 @@ export class ExampleComponent {
         });
     }
 
-    isFavorite(navigationItem: INavigationItem): boolean { 
-        return this.favoritesService.isPinned(navigationItem.id); 
+    isFavorite(navigationItem: INavigationItem): boolean {
+        return this.favoritesService.isPinned(navigationItem.id);
     }
 
 }

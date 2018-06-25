@@ -1,10 +1,10 @@
 # Description
-The tools menu service holds list of items that are displayed in the right-hand side menu in Poseidon. It is used by application developers in order to add custom commands in the tools menu. 
+The tools menu service holds list of items that are displayed in the right-hand side menu in Poseidon. It is used by application developers in order to add custom commands in the tools menu.
 
 ## Definitions
-- **Tools menu**: the right-aligned sidebar in Poseidon, toggled by the following button - ![image.png](.attachments/image-72f21012-8af3-45f4-8574-67e4f8cd36ea.png) . It shows list of items (buttons) provided by the tools menu service.
-- **Tools menu item:** represents button in the tools menu with label, associated action and possibly list of child items that are displayed nested under the parent. 
-- **Tools menu service**: Angular service provided by the platform so that applications can register tools menu items. 
+- **Tools menu**: the right-aligned sidebar in Poseidon, toggled by the following button - ![image.png](/Public-documentation/images/image-72f21012-8af3-45f4-8574-67e4f8cd36ea.png) . It shows list of items (buttons) provided by the tools menu service.
+- **Tools menu item:** represents button in the tools menu with label, associated action and possibly list of child items that are displayed nested under the parent.
+- **Tools menu service**: Angular service provided by the platform so that applications can register tools menu items.
 
 
 # Usage
@@ -44,7 +44,7 @@ export class ToolsMenuTestPageComponent {
 ```
 
 ## Registering tools menu items
-The register method accepts one or more ```ToolsMenuItem``` objects and add them to the tools menu.  
+The register method accepts one or more ```ToolsMenuItem``` objects and add them to the tools menu.
 ```typescript
 register(...items: ToolsMenuItem[]): void
 ```
@@ -127,14 +127,14 @@ ngOnInit(): void {
 ```
 
 ## Getting the registered tools menu items
-The tools menu service provides array of already registered items. They can be managed (added, edited, removed) at any time by the application that uses the service. 
+The tools menu service provides array of already registered items. They can be managed (added, edited, removed) at any time by the application that uses the service.
 ```typescript
 const toolsMenuItems: ToolsMenuItem[] = this.toolsMenuService.items;
 toolsMenuItems[0].label = 'New label';
 ```
 
 ## Clearing the tools menu
-Applications are responsible to clear the tools menu when the user navigates away. As general rule, every component adds tools menu items during initialization and clears the tools menu on exit. Use the following code to achieve that: 
+Applications are responsible to clear the tools menu when the user navigates away. As general rule, every component adds tools menu items during initialization and clears the tools menu on exit. Use the following code to achieve that:
 ```typescript
 ngOnDestroy(): void {
     this.toolsMenuService.clear();
@@ -159,54 +159,54 @@ export class ToolsMenuTestPageComponent implements OnInit, OnDestroy {
         toggleFavoriteItem.label = 'Add Favorite';
         toggleFavoriteItem.icon = 'bookmark';
         toggleFavoriteItem.onSelected = () => this.toggleFavorite();
-		
+
         const addCardItem = new ToolsMenuItem();
         addCardItem.label = 'Add Card';
         addCardItem.icon = 'plus';
         addCardItem.onSelected = () => this.addCard();
-		
+
         const removeCardItem = new ToolsMenuItem();
         removeCardItem.label = 'Remove Card';
         removeCardItem.icon = 'minus';
         removeCardItem.onSelected = () => this.removeCard();
-		
+
         const exportItem = new ToolsMenuItem();
         exportItem.label = 'Export';
         exportItem.icon = 'pull-up';
-        
+
 	const exportTimeSeriesItem = new ToolsMenuItem();
         exportTimeSeriesItem.label = 'Time Series';
         exportTimeSeriesItem.icon = 'angle-swap-horizontal';
         exportTimeSeriesItem.onSelected = () => this.exportTimeSeries();
-        
+
 	const exportDocumentItem = new ToolsMenuItem();
         exportDocumentItem.label = 'Document';
         exportDocumentItem.icon = 'attachment';
-        
+
 	const exportPdfItem = new ToolsMenuItem();
         exportPdfItem.label = 'PDF';
         exportPdfItem.icon = 'attachment';
         exportPdfItem.onSelected = () => this.exportPdf();
-        
+
 	const exportWordItem = new ToolsMenuItem();
         exportWordItem.label = 'Word';
         exportWordItem.icon = 'attachment';
         exportWordItem.onSelected = () => this.exportWord();
-        
+
 	const exportExcelItem = new ToolsMenuItem();
         exportExcelItem.label = 'Excel';
         exportExcelItem.icon = 'attachment';
         exportExcelItem.onSelected = () => this.exportExcel();
-        
+
 	exportDocumentItem.addChildren(exportPdfItem, exportWordItem, exportExcelItem);
-        
+
 	const printItem = new ToolsMenuItem();
         printItem.label = 'Print';
         printItem.icon = 'papers';
         printItem.onSelected = () => this.print();
-        
+
 	exportItem.addChildren(exportTimeSeriesItem, exportDocumentItem, printItem);
-        
+
 	this.toolsMenuService.register(toggleFavoriteItem, addCardItem, removeCardItem, exportItem);
     }
 
@@ -240,6 +240,6 @@ export class ToolsMenuTestPageComponent implements OnInit, OnDestroy {
     private  print(): void { console.log('Print clicked'); }
 }
 ```
-That example will create the following tools menu: 
+That example will create the following tools menu:
 
-![image.png](.attachments/image-f2fc87e8-a6c3-4010-8951-bfaac98306e5.png)
+![image.png](/Public-documentation/images/image-f2fc87e8-a6c3-4010-8951-bfaac98306e5.png)

@@ -3,7 +3,7 @@ The settings service is used to manage various application and user-specific set
 
 The content (Value) of a setting is not specified, it can be anything (e.g. json, xml, plain text) and the framework is not interested in it. Understanding the value is a responsibility of the application (module) which owns the setting.
 
-![image.png](.attachments/image-bd34a339-adec-41c4-812e-f6b475db0de5.png)
+![image.png](/Public-documentation/images/image-bd34a339-adec-41c4-812e-f6b475db0de5.png)
 
 # Using the Settings Service
 
@@ -29,7 +29,7 @@ this.settingsService.addType({
       id: uuid(),
       isSingular: false,
       moduleId: 'my-module-id',
-      name: 'My setting type'    
+      name: 'My setting type'
     })
     .then(() => {  console.log('Added setting type.'); })
     .catch((error) => { console.error('Error: ' + error); });
@@ -42,7 +42,7 @@ this.settingsService.addType({
 
 ## Get a setting type
 ```
-getType(name: string, moduleId?: string): Promise<ISettingType> 
+getType(name: string, moduleId?: string): Promise<ISettingType>
 ```
 
 Example:
@@ -110,7 +110,7 @@ remove<T>(setting: ISetting<T>): Promise<void>
 Example:
 ```javascript
 const found = _.find(settings, (s: ISetting<any>) => s.identifier === 'my-setting-identifier');
-if (found) {     
+if (found) {
     this.settingsService.remove(found)
     .then(() => {
         console.log('Setting removed.');

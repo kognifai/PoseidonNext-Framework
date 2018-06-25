@@ -7,7 +7,7 @@ The view of the page displays a dashboard on a static layout, a configuration pa
  - Saving the current dashboard
  - Adding a new widget to the dashboard
 
-![PSN_Dashboard.png](.attachments/PSN_Dashboard-4f4253b5-16d2-48f5-bea2-844c511c003a.png)
+![PSN_Dashboard.png](/Public-documentation/images/PSN_Dashboard-4f4253b5-16d2-48f5-bea2-844c511c003a.png)
 
 ## Grid options
 By changing the values in the configuration panel in the top left corner, you can manipulate the grid dimensions, thus configuring the snap size for the widget movement and resizing.
@@ -24,12 +24,12 @@ When a new widget is introduced via a package, and this package is not part of t
 In essence, the creator of a new widget package should:
  - Install their package to the test page's packages dependencies:
 
-![PND_Widgets1.png](.attachments/PND_Widgets1-fd7e6d47-bdb5-44b4-bcc6-9d65554ec6c5.png)
+![PND_Widgets1.png](/Public-documentation/images/PND_Widgets1-fd7e6d47-bdb5-44b4-bcc6-9d65554ec6c5.png)
 
  - Import the main module of the package into the consumer main module file:
 
-![PND_Widgets2.png](.attachments/PND_Widgets2-ca284001-5fe7-4168-a94c-03f8b1d9ad7d.png)
+![PND_Widgets2.png](/Public-documentation/images/PND_Widgets2-ca284001-5fe7-4168-a94c-03f8b1d9ad7d.png)
 
  - Include the main module of the package into the consumer main module's **imports**:
 
-![PND_Widgets3.png](.attachments/PND_Widgets3-262f6548-1753-4ba0-adba-f8d99fa9c2e8.png)
+![PND_Widgets3.png](/Public-documentation/images/PND_Widgets3-262f6548-1753-4ba0-adba-f8d99fa9c2e8.png)
