@@ -14,18 +14,27 @@ Poseidon Next is a subset of the kognifai platform which provides some of the fo
 - Integration with Galore
 - Test pages to showcase usages of the provided services and packages
 
-In this section, we talk about:
+### In this section, we talk about:
 
 [Developers Getting Started page](#Developers-Getting-Started-page)
 
-[Services](#Services)
+[Guides](#Guides)
 
-[Widgets](#Widgets)
+[Services](#Services)
 
 [Attributions](#Attributions)
 
 ## Developers Getting Started page
 [Developers Getting Started page](Developers-Getting-Started.md)  provides information on prerequisites, how to globally install and host posedion dev host from NPM, how to install test modules, how to create a new Poseidon application, and how to use the Kognifai Design System.
+
+## Guides
+[Poseidon Next applications overview](Public-documentation/Guides/Poseidon-Next-Applications-Overview.md)
+
+[Poseidon Next API overview](Public-documentation/Guides/Poseidon-Next-API-Overview.md)
+
+[Creating a Poseidon Data Adapter project using Yeoman](Public-documentation/Guides/Creating-Poseidon-Data-Adapter-project-using-Yeoman.md)
+
+[Application and data adapter registration tool](Public-documentation/Guides/CLI-tool-for-registering-apps-and-data-adapters.md)
 
 ## Services
 
