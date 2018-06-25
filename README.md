@@ -1,7 +1,7 @@
  
 # Poseidon Next  [![Gitter Join the chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kognifai/Lobby)
 
-Poseidon Next is the Kognifai web application framework. A developer can create top-notch web applications with less efforts on Kognifai ecosystem.
+Poseidon Next is the Kognifai web application framework. Using this framework, a developer can create top-notch web applications with less efforts on Kognifai ecosystem.
 
 In this section, we talk about:
 
