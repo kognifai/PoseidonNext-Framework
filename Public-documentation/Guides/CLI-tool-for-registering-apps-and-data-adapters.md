@@ -23,7 +23,7 @@ _Prerequisite: This app requires Node 8 or greater to be installed._
 2. Restart your command line window
 3. You can now run the tool by typing in ```regapp``` form anywhere. This will present you with the options for the tool.
 
-![2018-06-14_08-52-35.png](/Public-documentation/images/2018-06-14_08-52-35-f86cf13e-03a7-4b61-87cd-30f8bb9155c6.png)
+![2018-06-14_08-52-35.png](.%20images/2018-06-14_08-52-35-f86cf13e-03a7-4b61-87cd-30f8bb9155c6.png)
 
 # Registering manifests
 
@@ -41,7 +41,7 @@ _The following section assumes that you are a developer using the ```@kognifai/p
 
 If the registration was successful you should see the following messages:
 
-![2018-06-14_09-12-32.png](/Public-documentation/images/2018-06-14_09-12-32-8e10e27c-4df5-400f-bd3c-eb35047415e9.png)
+![2018-06-14_09-12-32.png](.%20images/2018-06-14_09-12-32-8e10e27c-4df5-400f-bd3c-eb35047415e9.png)
 
 # Configuration
 

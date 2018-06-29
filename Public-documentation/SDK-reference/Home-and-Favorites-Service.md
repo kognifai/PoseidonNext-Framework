@@ -2,7 +2,7 @@
 
 The home screen is the default landing page/view in Poseidon.   It would contain a default icon which enables user to add favourite items on this screen.  The initial screen would be looking like as below:
 
- ![image.png](/Public-documentation/images/image-86f8e543-b5af-44e3-be89-20d94b8c8a71.png)
+ ![image.png](.%20images/image-86f8e543-b5af-44e3-be89-20d94b8c8a71.png)
 
 Adding favourite item onto the home screen is facilitated by **FavoritesService**.
 
@@ -85,11 +85,11 @@ When the user wants to **remove** a navigation item as favourite, below method i
 unpin(item: IFavorite): Promise<boolean> { ... }
 ```
 
- ![image.png](/Public-documentation/images/image-1e9ab818-c985-4085-91e5-7c4ac11496df.png)
+ ![image.png](.%20images/image-1e9ab818-c985-4085-91e5-7c4ac11496df.png)
 
 If the user does a **long press** on the favourite item,  they would get the option **'X'** on the icon.  Upon clicking the **'X'** on the favourite item, it would be removed from the home screen.  To remove the **'X'** symbol, the user can click anywhere on the screen and the icon would return to normalcy.
 
- ![image.png](/Public-documentation/images/image-89a1beaa-b9aa-4837-b4a1-319ac91a0e6f.png)
+ ![image.png](.%20images/image-89a1beaa-b9aa-4837-b4a1-319ac91a0e6f.png)
 
 A simple sample component using **FavoritesService** is as below:
 
