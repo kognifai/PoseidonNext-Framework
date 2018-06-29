@@ -3,7 +3,7 @@ The settings service is used to manage various application and user-specific set
 
 The content (Value) of a setting is not specified, it can be anything (e.g. json, xml, plain text) and the framework is not interested in it. Understanding the value is a responsibility of the application (module) which owns the setting.
 
-![image.png](/Public-documentation/images/image-bd34a339-adec-41c4-812e-f6b475db0de5.png)
+![image.png](.%20images/image-bd34a339-adec-41c4-812e-f6b475db0de5.png)
 
 # Using the Settings Service
 

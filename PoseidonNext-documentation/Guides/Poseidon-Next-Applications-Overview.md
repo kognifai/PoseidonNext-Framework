@@ -10,7 +10,7 @@ Poseidon Next offers a generator which scaffolds a new Angular application that 
 
 A typical  application is composed of a sidebar menu, a tools menu, a header, a footer and the main application surface. The sidebar menu provides navigation to other applications and routes within the same application. The tools menu provides access to functionality related to the current application or route.
 
-![appstructure.PNG](/Public-documentation/images/appstructure-8c7c0cfe-dd86-4179-ad09-4c38e1012cbd.PNG)
+![appstructure.PNG](.%20images/appstructure-8c7c0cfe-dd86-4179-ad09-4c38e1012cbd.PNG)
 
 Poseidon Next publishes many component as Angular components and as web components in next releases. Libraries are typically available as normal Javascript modules and as Angular services. More Javascript frameworks might be supported in the next releases.
 

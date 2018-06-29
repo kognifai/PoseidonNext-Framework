@@ -18,7 +18,7 @@ To ensure that this generator is successfully installed, we can use the below co
 ```typescript
 yo --help
 ```
- ![image.png](/Public-documentation/images/image-b5b30524-38c5-48a0-826c-220abd294f64.png)
+ ![image.png](.%20images/image-b5b30524-38c5-48a0-826c-220abd294f64.png)
 
 #Create a Poseidon Data Adapter Solution
 
@@ -36,11 +36,11 @@ yo @kognifai/poseidon:dataadapter
 
 Upon running the above command, we would be required to provide a data adapter project name as well as a Docker image name.
 
-  ![image.png](/Public-documentation/images/image-214e8b82-1a2a-43bb-8730-a19d2f541efa.png)
+  ![image.png](.%20images/image-214e8b82-1a2a-43bb-8730-a19d2f541efa.png)
 
 Once it is successfully created, we should see a project setup similar to the image as below:
 
- ![image.png](/Public-documentation/images/image-a7c43374-d0b3-4a2a-8eb4-2a4b98e05b63.png)
+ ![image.png](.%20images/image-a7c43374-d0b3-4a2a-8eb4-2a4b98e05b63.png)
 
 #Registering our custom data adapter
 We need a registration tool for registration.
