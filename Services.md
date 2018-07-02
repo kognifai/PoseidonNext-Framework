@@ -1,6 +1,6 @@
 
 ### Services   [![Gitter Join the chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kognifai/Lobby)
-Services are library packages intented for specific set of tasks. Poseidon Next offers the following services that cab be used in your application.
+Services are library packages intented for specific set of tasks. Poseidon Next offers the following services that can be used in your application.
 
  - [App location Service](PoseidonNext-documentation/SDK-reference/App-Locations-Service.md)
  - [Authentication Service](PoseidonNext-documentation/SDK-reference/Authentication-Service.md)
