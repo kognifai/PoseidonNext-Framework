@@ -48,7 +48,7 @@ Loading application manifests
 ```
 Open a browser at http://localhost:8080 in order to see the Poseidon platform. The host comes with a developer friendly security solution. Type in any username and password to log in. Then the platform is loaded, note the left hand side navigation menu with applications:
 
-![image.png](/Public-documentation/images/image-43ec7967-c093-468b-a63e-e64075349bdc.png)
+![image.png](.%20images/image-43ec7967-c093-468b-a63e-e64075349bdc.png)
 
 # Creating a new Poseidon Application
 ## Installing Yeoman

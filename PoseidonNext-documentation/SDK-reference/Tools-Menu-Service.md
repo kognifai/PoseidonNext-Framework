@@ -2,7 +2,7 @@
 The tools menu service holds list of items that are displayed in the right-hand side menu in Poseidon. It is used by application developers in order to add custom commands in the tools menu.
 
 ## Definitions
-- **Tools menu**: the right-aligned sidebar in Poseidon, toggled by the following button - ![image.png](.%20images/image-72f21012-8af3-45f4-8574-67e4f8cd36ea.png) . It shows list of items (buttons) provided by the tools menu service.
+- **Tools menu**: the right-aligned sidebar in Poseidon, toggled by the following button - ![image.png](.%20images/image-72f21012-8af3-45f4-8574-67e4f8cd36ea.png). It shows list of items (buttons) provided by the tools menu service.
 - **Tools menu item:** represents button in the tools menu with label, associated action and possibly list of child items that are displayed nested under the parent.
 - **Tools menu service**: Angular service provided by the platform so that applications can register tools menu items.
 
