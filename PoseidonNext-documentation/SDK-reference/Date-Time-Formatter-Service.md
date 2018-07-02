@@ -2,9 +2,9 @@
 
 The Date time formatter service is used to specify the date and time format which is to be displayed to the end user   for application specific use cases. The package is independently developed without having any dependency on angular5 or with any of its sister libraries. The primary dependency for this package is moment.js .
 
-#Using the date time formatter service
+# Using the date time formatter service
 
-##Injecting into a component
+## Injecting into a component
 The package can be injected into the requiring component in the following manner.
 1. First import the package into the component
 2. Then inside the constructor function of the component inject it as it is done for any service.
