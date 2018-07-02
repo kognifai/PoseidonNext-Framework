@@ -1,9 +1,10 @@
-#Description
+## Description
+
 **Data Adapter** is an API, which implements a set of standard interfaces defined by **Poseidon Next**.  The data adapters are meant to give a simplified and unified way of accessing different resources like assets, timeseries and events.  Not all the API interfaces can be implemented by all resource providers, so when registered data adapters lists a set of capabilities, which signals which set of the API interfaces have been implemented.  All data adapters have to be registered with the **Poseidon Next API,** so that they are made available to the application.
 
 **Data adapters**, like the Poseidon Next applications, are intended to be run on different endpoints. Hence, their registration and location is necessary.  A registration tool is included with Poseidon Next.  Poseidon Next provides a generator to scaffold an new ASP.NET Core API Data Adapter project.
 
-#Install
+## Install
 ```typescript
 // Angular wrapper
 npm install @kognifai/poseidon-ng-dataadaptersservice
@@ -14,7 +15,7 @@ npm install @kognifai/poseidon-dataadaptersservice
 npm install @kognifai/poseidon-dataadapterslocationsservice
 ```
 
-#Usage
+## Usage
 **Poseidon Next** gives us 2 services relating to Data Adapter.
 1) DataAdaptersLocationsService - Fetches all the registered data adapters. 
 2) DataAdaptersFactoryService - Service which includes the standard API interfaces. 
@@ -23,12 +24,12 @@ npm install @kognifai/poseidon-dataadapterslocationsservice
 import { DataAdaptersFactoryService, HttpClientHelperService } from '@kognifai/poseidon-ng-dataadaptersservice';
 import { DataAdaptersLocationsService } from '@kognifai/poseidon-ng-dataadapterslocationsservice';
 ```
-#Injection
+## Injection
 ```typescript
 constructor(private dataAdaptersFactoryService: DataAdaptersFactoryService, 
             private dataAdaptersLocationService: DataAdaptersLocationsService) { }
 ```
-#Below is a simple usage example
+## Below is a simple usage example
 
 ```typescript
 import { Component, AfterViewInit } from '@angular/core';
