@@ -12,7 +12,7 @@ In the drilling and wells domain, one common data hierarchy structure is: Well -
 
 Data context browsing and selection has been developed purely as a client side utility.  Proxies to the underlying domain specific assets and data structures must be created.  As such structures can be enormous and it is not feasible to load whole hierarchies into the client.  The current implementation is created as a minimum base to fulfil immediate requirements of a non-domain specific selection mechanism that could be extended.
 
-#Terms
+# Terms
 The term context has a couple of meanings in relation to Kognifai Data Context.
 
 "**Selection Context**" - It is the context you are selecting a item as active for.
@@ -20,7 +20,7 @@ e.g., Setting a item "XXX" as the active "Well".  Setting "Toyota" as the active
 
 "**Data Context Item**" - An item that can be set active for a selection context.  This exists in hierarchies and has a type, which is likely to relate to the "selection context" it can be set as active for.
 
-#Components
+# Components
 There are two main client side constituents:
 
 **DataContextService** - The data context item repository can contain multiple data context item hierarchies from different domains. The service also facilitates events for hooking onto when the active data context item for a selection context is changed.
@@ -72,7 +72,7 @@ export interface IDataContextSource {
 
 The data context source has 2 properties.  "**expand**" fetches and populates the child metadata.  "**fallback**" is used as a lookup logic if the child with specified identifier is not found within the given collection.
 
-#Data Context Service
+# Data Context Service
 The data context service keeps track of active data context items for selection contexts. It acts as an event emitter and will raise events when the active item for a context changes.  It is also a repository for storing data context hierarchies of different types.  It gives methods for relating selection contexts. This is used directly by the data context selection component to relate parent/child related instances of the component.
 
 ```typescript
@@ -166,11 +166,11 @@ export interface IDataContextService {
 ```
 The service has methods for getting and setting the current state. This will give the active data context item for all selection contexts that are set. 
 
-#DataContextPersistenceService
+# DataContextPersistenceService
 
 This service helps in data context selection state persistence i.e., which data context item is selected for which selection context, so that it can be retrieved and set at application startup.  This service has the below methods that can be to used in our application.
 
-##Import
+## Import
 ```typescript
 import { DataContextPersistenceNgService } from '@kognifai/poseidon-ng-datacontextservice';
 ``` 
@@ -209,10 +209,10 @@ export interface IDataContextPersistenceService {
 
 ```
 
-#DataContextUrlService
+# DataContextUrlService
 This service helps in transferring the context through URL. This can be useful when sending a particular display URL with context, so that it opens the same display and with the context without needing the user to navigate to the context manually.
 
-##Import
+## Import
 ```typescript
 import { DataContextUrlNgService } from '@kognifai/poseidon-ng-datacontextservice';
 
@@ -242,14 +242,14 @@ export interface IDataContextUrlService {
 
 ```
 
-#DataContextSelectorComponent
+# DataContextSelectorComponent
 The data context selector UI component is implemented as an angular component, giving a new html tag to use in templates where data context should be possible to select.
 
-##Import
+## Import
 ```typescript
 import { DataContextSelectorComponent } from '@kognifai/poseidon-datacontextselectorcomponent';
 ``` 
-##Usage
+## Usage
 ```typescript
 <app-data-context-selector
       id="id"
