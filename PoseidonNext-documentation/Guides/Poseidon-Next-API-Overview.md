@@ -3,8 +3,8 @@ The kognifai platform is made of many APIs and the Poseidon Next set of APIs is 
 
 While all these APIs can run on different endpoints, they can be unified in a uniform way using API gateways.
 
-# Poseidon Next API
-The Poseidon Next API aims to support the quick development of front-ent web applications by providing typical services needed by these applications. 
+# PoseidonNext API
+The PoseidonNext API aims to support the quick development of front-end web applications by providing typical services needed by these applications. 
 
 The API is built using ASP.NET Core and is using REST conventions where applicable.
 
