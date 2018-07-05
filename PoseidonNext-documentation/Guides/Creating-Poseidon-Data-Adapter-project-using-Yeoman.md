@@ -1,6 +1,6 @@
 You can create a Poseidon Data Adapter project using the Yeoman generator **yo @kognifai/poseidon:dataadapter**.  **Yeoman** is a bootstrapping tool, which can be used to scaffold a Poseidon Data Adapter solution.  For more information, please visit http://yeoman.io.  This generator once generated has an interface as well as sample application projects.
 
-#Install Yeoman
+# Install Yeoman
 
 We can install Yeoman if it is not already installed:
 ```javascript
@@ -20,7 +20,7 @@ yo --help
 ```
  ![image.png](.%20images/image-b5b30524-38c5-48a0-826c-220abd294f64.png)
 
-#Create a Poseidon Data Adapter Solution
+# Create a Poseidon Data Adapter Solution
 
 Now that we have Yeoman and the Poseidon generator installed, we can use the sub-generator to scaffold our solution.
 
@@ -42,7 +42,7 @@ Once it is successfully created, we should see a project setup similar to the im
 
  ![image.png](.%20images/image-a7c43374-d0b3-4a2a-8eb4-2a4b98e05b63.png)
 
-#Registering our custom data adapter
+# Registering our custom data adapter
 We need a registration tool for registration.
 ```typescript
 npm install -g @kognifai/poseidon-app-registration-cli@">=2.0.0-beta.1 <3.0.0"
