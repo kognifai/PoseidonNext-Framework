@@ -97,5 +97,5 @@ To read the documentation head over to [https://designsystem.kognif.ai/](https:/
 
 # Next Steps
 
-Next step is to explore the [Services](Services.md) and tools, they are a part of Poseidon Next.
+Find [Services](Services.md) to consume the available service in your applications.
 
