@@ -34,7 +34,7 @@ npm install @kognifai/poseidon-user-administration@latest
 npm install @kognifai/poseidon-test-pages@latest
 ```
 You can now tell **poseidon-dev-host** to load and host these applications:
-(Remember stop the **poseidon-dev-host** if it is currently running. You can do that by pressing Ctrl+C in the console)
+
 ```powershell
 poseidon-dev-host --applications "C:\kognifai\applications"
 ```
@@ -51,6 +51,8 @@ Loading application manifests
 Open a browser at http://localhost:8080 in order to see the Poseidon platform. The host comes with a developer friendly security solution. Type in any username and password to log in. Then the platform is loaded, note the left hand side navigation menu with applications:
 
 ![image.png](.%20images/Poseidon-Applications.png)
+
+> Note: Remember to stop the **poseidon-dev-host** if it is currently running. Press **Ctrl+C** and type **Y** to stop the dev-host and proceed with Creating your own application on Poseidon Next.)
 
 # Creating a new Poseidon Application
 ## Installing Yeoman
