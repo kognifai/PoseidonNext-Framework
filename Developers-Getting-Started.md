@@ -78,7 +78,7 @@ Follow the instructions of the generator to fill in the required information. Th
 cd C:\kognifai\applications\my-first-app
 npm start
 ```
-In the Server, copy the  ```http://localhost:8080``` command to restart **poseidon-dev-host** and reload the platform in your browser. You will be able to open the newly created application from the navigation menu.
+In the Server, copy the poseidon-dev-host --applications "C:\kognifai\applications"` command to restart **poseidon-dev-host** and reload the platform in your browser. You will be able to open the newly created application from the navigation menu.
 - You can use VS Code (or your favorite IDE/code editor) to edit the source code:
 ```powershell
 code .
