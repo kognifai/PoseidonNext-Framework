@@ -18,6 +18,8 @@ poseidon-dev-host
 ```
 The console shows a message that it is now listening on http://localhost:8080. Opening the browser on this URL currently does not load anything as you need to get the Poseidon applications. Stop the dev-host now and proceed with the next step.
 
+> Note: Press **Ctrl+C** and type **Y** to stop the dev-host and proceed with the next installation step.
+
 # Installing applications
 Start by creating an empty directory in your local work directory:
 ```powershell
