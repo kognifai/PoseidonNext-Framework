@@ -135,6 +135,8 @@ poseidon-dev-host --applications "C:\kognifai\applications"
 ```
 Open a browser at http://localhost:8080 in order to view the Poseidon platform which displays your first application.
 
+![image.png](.%20images/my-first-app.jpg)
+
 ## Demo
 
 
