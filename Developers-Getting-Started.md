@@ -2,44 +2,75 @@
 This is a developer release of Poseidon Next.
 ```
 # Prerequisites [![Gitter Join the chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kognifai/Lobby)
-[NodeJs 8 or greater](https://nodejs.org/)
 
-# Poseidon Dev Host
-## Installation
-In order to start developing Poseidon Applications, you should get **poseidon-dev-host**. You can install from NPM globally:
+Download and install the [NodeJs 8 or latest](https://nodejs.org/) version from its official web site.
+
+
+# Installing the Poseidon Next framework
+
+
+### 1. Install the Poseidon Dev Host ###
+Run the following command to globally install the **poseidon-dev-host** from npm.
 ```powershell
 npm install @kognifai/poseidon-dev-host@latest -g
 ```
+### 2.	Host the Poseidon-dev-host ###
+After poseidon-dev-host 2.0 installation, you can run the following command:
 
-## Hosting
-After you've globally installed  **poseidon-dev-host** you can start it with the following command:
 ```powershell
 poseidon-dev-host
 ```
-The console shows a message that it is now listening on http://localhost:8080. Opening the browser on this URL currently does not load anything as you need to get the Poseidon applications. Stop the dev-host now and proceed with the next step.
+This hosts the ioc container such as: 
+- Creates ApplicationSettingsRouter files
+- Injects router fields
+- Loads application manifests
 
-> Note: Press **Ctrl+C** and type **Y** to stop the dev-host and proceed with the next installation step.
+The console displays a message that “Listening at http://localhost:8080.” At this stage, do not copy the URL and open on any browser, instead, proceed with the next installation step. 
 
-# Installing applications
-Start by creating an empty directory in your local work directory:
+> Note: Press **Ctrl+C** and type Y to stop the dev-host and proceed with the next installation step.
+
+###  3.	Create a directory ### 
+Once you installed the Poseidon-dev-host, the next step is to create an empty directory in your local folder, execute the following command to create a directory:
+
 ```powershell
 mkdir C:\kognifai\applications
+```
+
+Execute the following command to change the directory location to C:\kognifai\applications:
+
+```powershell
 cd C:\kognifai\applications
 ```
-You can use NPM to install the applications:
+
+
+###  4.	Install the Poseidon Next applications ### 
+
+You can use **npm** to install the Poseidon Next applications, execute the following commands to load and host these applications:
 ```powershell
 npm install @kognifai/poseidon-home@latest
 npm install @kognifai/poseidon-user-profile@latest
 npm install @kognifai/poseidon-user-administration@latest
 npm install @kognifai/poseidon-test-pages@latest
 ```
-You can now tell **poseidon-dev-host** to load and host these applications:
+- poseidon-home - This is the home page for the sample applications.
+- poseidon-user-profile - This displays the user profile information which can be updated.
+- poseidon-user-administration - This is a user management application for the identity provider.
+- poseidon-test-page -  - These are the sample pages which showcase different services and integrations in PoseidonNext.
+
+Set the C:\kognifai\applications as a default directory to load your applications.
 
 ```powershell
 poseidon-dev-host --applications "C:\kognifai\applications"
 ```
-The ```--applications``` parameter specifies the directory in which **poseidon-dev-host** will look for applications (including subfolder **/node_modules\@kognifai**). An application is considered a directory which contains content files (html pages, scripts, styles, assets, etc) together with application manifest file (**app.manifest.json**).
-When the command is executed, the host should output a message listing all the applications' manifests it found, similar to:
+Where the --applications parameter specifies the directory in which poseidon-dev-host must look for applications (including subfolder /node_modules@kognifai). 
+
+A directory contains the following files:
+
+- Content files (html pages, scripts, styles, assets, etc) along with application 
+- Manifest file (app.manifest.json). 
+
+When you execute the following command, the host must output a message listing all the manifests of the applications, similar to:
+
 ```
 Hosting applications from C:\kognifai\applications
 Loading application manifests
@@ -48,49 +79,82 @@ Loading application manifests
 	User Administration
 	User Profile
 ```
-Open a browser at http://localhost:8080 in order to see the Poseidon platform. The host comes with a developer friendly security solution. Type in any username and password to log in. Then the platform is loaded, note the left hand side navigation menu with applications:
+Open a browser at http://localhost:8080 in order to view the Poseidon platform. The host comes with a developer-friendly security solution. 
+
+- Type any username and password to log in. 
+
+> Note: You can create your own username and password. 
+
+The following Poseidon platform is displayed on the browser along with the left-hand side navigation.
 
 ![image.png](.%20images/Poseidon-Applications.png)
 
 > Note: Remember to stop the **poseidon-dev-host** if it is currently running. Press **Ctrl+C** and type **Y** to stop the dev-host and proceed with Creating your own application on Poseidon Next.)
 
-# Creating a new Poseidon Application
-## Installing Yeoman
-If you have not yet installed Yeoman, you can do so by executing this command:
+## Demo
+
+
+# Creating your first application on Poseidon Next framework
+
+Refer the Application Framework section that describes the skeleton of the framework that you can consume to develop your own applications:
+
+### 1.	Install Yeoman App ###
+
+For the first time users, it is recommended to install Yeoman app (if you’ve not yet installed) by executing the following command:
 ```powershell
 npm install -g yo
 ```
 
-## Installing the Yeoman generator
-You can install the **kognifai-poseidon** Yeoman generator from NPM:
-```powershell
+### 2.	Install the Yeoman generator ###
+Yeoman generator can be used in the Kognifai applications. 
+
+To use the Yemoan generator, execute the following command from npm:
+  ```powershell
 npm install -g @kognifai/generator-poseidon@latest
 ```
-
-## Using the generator
-You should use the generator in the kognifai applications folder:
+In the Kognifai applications folder, use the following Poseidon generator.
 ```powershell
 cd C:\kognifai\applications
 yo @kognifai/poseidon:application
 ```
-Follow the instructions of the generator to fill in the required information. The name of the new app will be the same as the name of the folder (e.g. my-first-app). After the generator completes, you will have a working simple application. Start it:
-```powershell
+For the **Your Application name**, enter the application name which must be same as the folder name (i.e. my-first-app) and press **Enter**.
+
+If you want to use **port 4300** as the **Development port of the application**, press **Enter**.
+
+ After loading all the generator packages, set the default location as your application’s directory location as following:
+ ```powershell
 cd C:\kognifai\applications\my-first-app
+```
+Start your application from npm:
+ ```powershell
 npm start
 ```
-In the Server, copy the poseidon-dev-host --applications "C:\kognifai\applications"` command to restart **poseidon-dev-host** and reload the platform in your browser. You will be able to open the newly created application from the navigation menu.
-- You can use VS Code (or your favorite IDE/code editor) to edit the source code:
+In the Server, to restart **poseidon-dev-host** and reload your first application on your browser, execute the following command:
+ ```powershell
+poseidon-dev-host --applications "C:\kognifai\applications"
+```
+Open a browser at http://localhost:8080 in order to view the Poseidon platform which displays your first application.
+
+## Demo
+
+
+# Editing the source code in any code editor
+
+You can use VS Code or any one of your favorite IDE/code editor to edit the source code:
 ```powershell
 code .
 ```
-Any code changes you make on application pages, scripts and styles will be automatically reflected in the browser (live reload).
-- You can use NPM scripts to start, build, lint, test:
+Any code changes you make on application pages, scripts and styles are automatically reflected in the browser (live reload).
+You can use the following NPM scripts to start, build, lint, and test:
 ```powershell
 npm start
 npm run build
 npm run lint
 npm run test
 ```
+
+
+
 # Using the Kognifai Design System
 
 Kognifai Design System is a collection of design patterns, components, and guidelines for creating unified and coherent UI in the Kognifai ecosystem.
