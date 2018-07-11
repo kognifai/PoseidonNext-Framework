@@ -165,7 +165,7 @@ It contains a set of easy-to-use HTML/CSS components. It does not include JavaSc
 
 To read the documentation head over to [https://designsystem.kognif.ai/](https://designsystem.kognif.ai/)
 
-# Next Steps
+# Next Step
 
 Find [Services](Services.md) to consume the available service in your applications.
 
