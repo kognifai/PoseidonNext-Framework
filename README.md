@@ -10,7 +10,7 @@ Poseidon Next is a subset of the kognifai platform which provides some of the fo
 - Identity provider (applications, services and users registration and management)
 - Commonly used applications
 - Quick data adapters development through new projects scaffolding
-- Registration tools for applications and data data adapters
+- Registration tools for applications and data adapters
 - Integration with Galore
 - Test pages to showcase usages of the provided services and packages
 
