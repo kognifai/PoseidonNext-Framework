@@ -1,10 +1,11 @@
-# Description
+# Registration Tool
 
-```@kognifai/poseidon-app-registration-cli``` is a command line interface tool (CLI) to register the applications and data adapers you have developed with the Poseidon API. The app registers the metadata information that is automatically generated for you if you have used one of the Poseidon Yeoman generators to scaffold your project.
+```@kognifai/poseidon-app-registration-cli``` is a command line interface tool (CLI) that registers the applications and data adapters you have developed with the Poseidon API. The app registers metadata information that is automatically generated for you, if you have used one of the Poseidon Yeoman generators to scaffold your project.
 
 # Application manifest
 
 Poseidon applications can be scaffolded with the ```@kognifai/generator-poseidon``` Yeoman generators. See the getting started article for more info on how to scaffold a project. A typical application manifest can look like this:
+For more information on how to scaffold a project, refer the [PoseidonNext Developers Getting Started page](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Developers-Getting-Started.md).
 
 ```json
 {
@@ -18,6 +19,9 @@ Poseidon applications can be scaffolded with the ```@kognifai/generator-poseidon
 # Using the tool
 
 _Prerequisite: This app requires Node 8 or greater to be installed._
+Prerequisites
+
+Download and install the [NodeJs 8 or latest](https://nodejs.org/) version from its official web site.
 
 1. Install the tool as a global npm package by running ```npm install -g @kognifai/poseidon-app-registration-cli```.
 2. Restart your command line window
