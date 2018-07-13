@@ -18,7 +18,7 @@ Poseidon applications can be scaffolded with the ```@kognifai/generator-poseidon
 
 # Using the tool
 
-_Prerequisite: This app requires Node 8 or greater to be installed._
+
 Prerequisites
 
 Download and install the [NodeJs 8 or latest](https://nodejs.org/) version from its official web site.
