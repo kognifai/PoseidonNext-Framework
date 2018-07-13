@@ -96,7 +96,7 @@ The following Poseidon platform is displayed on the browser along with the left-
 
 # Creating your first application on Poseidon Next framework
 
-Refer the Application Framework section that describes the skeleton of the framework that you can consume to develop your own applications:
+
 
 ### 1.	Install Yeoman App ###
 
