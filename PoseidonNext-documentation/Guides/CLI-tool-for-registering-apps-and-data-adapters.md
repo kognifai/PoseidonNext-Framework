@@ -4,8 +4,8 @@
 
 # Application manifest
 
-Poseidon applications can be scaffolded with the ```@kognifai/generator-poseidon``` Yeoman generators. See the getting started article for more info on how to scaffold a project. A typical application manifest can look like this:
-For more information on how to scaffold a project, refer the [PoseidonNext Developers Getting Started page](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Developers-Getting-Started.md).
+Poseidon applications can be scaffolded with the ```@kognifai/generator-poseidon``` Yeoman generators. For more information on how to scaffold a project, refer the [PoseidonNext Developers Getting Started page](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Developers-Getting-Started.md). A typical application manifest can look like this:
+
 
 ```json
 {
