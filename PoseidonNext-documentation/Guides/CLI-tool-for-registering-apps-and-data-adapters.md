@@ -2,6 +2,7 @@
 
 ```@kognifai/poseidon-app-registration-cli``` is a command line interface tool (CLI) that registers the applications and data adapters you have developed with the Poseidon API. The app registers metadata information that is automatically generated for you, if you have used one of the Poseidon Yeoman generators to scaffold your project.
 
+
 # Application manifest
 
 Poseidon applications can be scaffolded with the ```@kognifai/generator-poseidon``` Yeoman generators. For more information on how to scaffold a project, see the [PoseidonNext Developers Getting Started page](https://github.com/kognifai/PoseidonNext-Framework/blob/master/Developers-Getting-Started.md). A typical application manifest can look like this:
@@ -23,15 +24,20 @@ Prerequisites
 
 Download and install the [NodeJs 8 or latest](https://nodejs.org/) version from its official web site.
 
-1. Install the tool as a global npm package by running ```npm install -g @kognifai/poseidon-app-registration-cli```.
-2. Restart your command line window
-3. You can now run the tool by typing in ```regapp``` from anywhere. This will present you with the options for the tool.
+To install and run the Registration Tool:
+
+1. Install the tool as a global npm package by executing the following command:
+
+    ```npm install -g @kognifai/poseidon-app-registration-cli```.
+
+2. Restart Windows from command line.
+3. Run the tool by typing in ```regapp``` from anywhere. This will present you with the options for the tool.
 
 ![2018-06-14_08-52-35.png](.%20images/2018-06-14_08-52-35-f86cf13e-03a7-4b61-87cd-30f8bb9155c6.png)
 
 # Registering manifests
 
-_The following section assumes that you are a developer using the ```@kognifai/poseidon-dev-host``` API for your local development environment against the default host and port which is localhost:8080. You can specify any username and password below. When using this in a non-developer scenario or against a deployed Poseidon API you need to have a Poseidon user that has permissions to add applications. This will also require some extra configuration as specified below._
+The following section assumes that you are a developer using the ```@kognifai/poseidon-dev-host``` API for your local development environment against the default host and port which is localhost:8080. You can specify any username and password below. When using this in a non-developer scenario or against a deployed Poseidon API you need to have a Poseidon user that has permissions to add applications. This will also require some extra configuration as specified below._
 
 ## Application
 
