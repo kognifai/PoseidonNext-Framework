@@ -108,7 +108,7 @@ npm install -g yo
 ```
 
 ### 2.	Install the Yeoman generator ###
-Yeoman generator can be used in the Kognifai applications. For more information on Yeoman generator, See [Yeoman's Getting Started page](http://yeoman.io/learning/index.htm)
+Yeoman generator can be used in the Kognifai applications. For more information on Yeoman generator, See [Yeoman's Getting Started page](http://yeoman.io/learning/index.html)
 
 To use the Yemoan generator, execute the following command from npm:
   ```powershell
