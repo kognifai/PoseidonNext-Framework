@@ -6,7 +6,7 @@ This is a developer release of Poseidon Next.
 Download and install the [NodeJs 8 or latest](https://nodejs.org/) version from its official web site.
 
 
-# Installing the Poseidon Next framework
+# Installing the Poseidon Next
 
 
 ### 1. Install the Poseidon Dev Host ###
@@ -14,8 +14,10 @@ Run the following command to globally install the **poseidon-dev-host** from npm
 ```powershell
 npm install @kognifai/poseidon-dev-host@latest -g
 ```
+>Note: -g indicates ```poseidon-dev-host@latest``` is installed globally.
+
 ### 2.	Host the Poseidon-dev-host ###
-After poseidon-dev-host 2.0 installation, you can run the following command:
+After poseidon-dev-host 2.0 installation, you can host it on your computer ( It may act as a server, a client, or both) by running the following command:
 
 ```powershell
 poseidon-dev-host
@@ -25,9 +27,9 @@ This hosts the ioc container such as:
 - Injects router fields
 - Loads application manifests
 
-The console displays a message that “Listening at http://localhost:8080.” At this stage, do not copy the URL and open on any browser, instead, proceed with the next installation step. 
+The console displays a message that “Listening at http://localhost:8080.” At this stage, do not copy the URL and open it on any web browser, instead, proceed with the [next installation step](#Create-a-directory). 
 
-> Note: Press **Ctrl+C** and type Y to stop the dev-host and proceed with the next installation step.
+> Note: Press **Ctrl+C** and type **Y** to stop the dev-host and proceed with the [next installation step](#Create-a-directory).
 
 ###  3.	Create a directory ### 
 Once you installed the Poseidon-dev-host, the next step is to create an empty directory in your local folder, execute the following command to create a directory:
@@ -106,7 +108,7 @@ npm install -g yo
 ```
 
 ### 2.	Install the Yeoman generator ###
-Yeoman generator can be used in the Kognifai applications. 
+Yeoman generator can be used in the Kognifai applications. For more information on Yeoman generator, See [Yeoman's Getting Started page](http://yeoman.io/learning/index.htm)
 
 To use the Yemoan generator, execute the following command from npm:
   ```powershell
