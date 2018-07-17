@@ -1,6 +1,6 @@
-# Poseidon Data Adapter
+# Poseidon Data Adapter project
 
-You can create a Poseidon Data Adapter project using the Yeoman generator **yo @kognifai/poseidon:dataadapter**.  **Yeoman** is a bootstrapping tool, which can be used to scaffold a Poseidon Data Adapter solution.  For more information, please visit http://yeoman.io.  This generator once generated has an interface as well as sample application projects.
+You can create a Poseidon Data Adapter project using the Yeoman generator **yo @kognifai/poseidon:dataadapter**.  **Yeoman** is a bootstrapping tool, which can be used to scaffold a Poseidon Data Adapter solution.  For more information, please visit http://yeoman.io.  This generator once generated has an interface as well as sample application projects.
 
 # Install Yeoman
 
