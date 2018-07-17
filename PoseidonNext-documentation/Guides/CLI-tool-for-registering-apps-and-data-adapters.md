@@ -1,4 +1,4 @@
-# Registration Tool
+# Registration
 
 ```@kognifai/poseidon-app-registration-cli``` is a command line interface tool (CLI) that registers the applications and data adapters you have developed with the Poseidon API. The app registers metadata information that is automatically generated for you, if you have used one of the Poseidon Yeoman generators to scaffold your project.
 
