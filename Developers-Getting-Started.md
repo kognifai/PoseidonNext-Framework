@@ -93,10 +93,9 @@ The following Poseidon platform is displayed on the browser along with the left-
 
 > Note: Remember to stop the **poseidon-dev-host** if it is currently running. Press **Ctrl+C** and type **Y** to stop the dev-host and proceed with Creating your own application on Poseidon Next.)
 
-## Demo
 
 
-# Creating your first application on Poseidon Next framework
+# Creating your first application on Poseidon Next
 
 
 
@@ -139,7 +138,7 @@ Open a browser at http://localhost:8080 in order to view the Poseidon platform w
 
 ![image.png](.%20images/my-first-app.jpg)
 
-## Demo
+
 
 
 # Editing the source code in any code editor
