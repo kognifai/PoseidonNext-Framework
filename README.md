@@ -25,7 +25,7 @@ Poseidon Next is a subset of the kognifai platform which provides some of the fo
 [Attributions](#attributions)
 
 ## Developers Getting Started page
-[Developers Getting Started page](Developers-Getting-Started.md)  provides information on prerequisites, how to globally install and host posedion dev host from NPM, how to install test modules, how to create a new Poseidon application, and how to use the Kognifai Design System.
+[Developers Getting Started page](Developers-Getting-Started.md)  provides information on how to globally install and host posedion dev host from NPM, how to create a new Poseidon application, and how to use the Kognifai Design System.
 
 ## Guides
 [Poseidon Next applications overview](PoseidonNext-documentation/Guides/Poseidon-Next-Applications-Overview.md)
