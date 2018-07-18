@@ -3,11 +3,20 @@ This is a developer release of Poseidon Next.
 ```
 # Prerequisites [![Gitter Join the chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kognifai/Lobby)
 
+### 1. NodeJs 8 or latest
 Download and install the [NodeJs 8 or latest](https://nodejs.org/) version from its official web site.
+
+### 2. Run commands in Command Prompt or Windows PowerShell
+In any version of Windows, Open Command Prompt by doing the following steps:
+
+1 Press **WIN+R** 
+
+2 In the Run, type **cmd** to open the Command Prompt.
+
+In any version of Windows, open [Windows PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/setup/starting-windows-powershell?view=powershell-6) to install the **Poseidon-dev-host** and create your first web application.
 
 
 # Installing the Poseidon Next
-
 
 ### 1. Install the Poseidon Dev Host ###
 Run the following command to globally install the **poseidon-dev-host** from npm.
