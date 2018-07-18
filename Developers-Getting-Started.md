@@ -7,7 +7,7 @@ This is a developer release of Poseidon Next.
 Download and install the [NodeJs 8 or latest](https://nodejs.org/) version from its official web site.
 
 ### 2. Run commands in Command Prompt or Windows PowerShell
-In any version of Windows, Open Command Prompt by doing the following steps:
+In any version of Windows, open Command Prompt by doing the following steps:
 
  1. Press **WIN+R** 
 
