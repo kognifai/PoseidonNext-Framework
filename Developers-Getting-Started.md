@@ -11,7 +11,7 @@ In any version of Windows, open Command Prompt by doing the following steps:
 
  1. Press **WIN+R** 
 
- 2. In the Run, type **cmd** to open the Command Prompt.
+ 2. In the Run, type **cmd** and press **Enter** to open the Command Prompt.
 
 In any version of Windows, open [Windows PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/setup/starting-windows-powershell?view=powershell-6) to install the **Poseidon-dev-host** and create your first web application.
 
