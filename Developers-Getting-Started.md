@@ -100,7 +100,7 @@ The following Poseidon platform is displayed on the browser along with the left-
 
 ![image.png](.%20images/Poseidon-Applications.png)
 
-> Note: Remember to stop the **poseidon-dev-host** if it is currently running. Press **Ctrl+C** and type **Y** to stop the dev-host and proceed with Creating your own application on Poseidon Next.)
+> Note: Remember to stop the **poseidon-dev-host** if it is currently running. Press **Ctrl+C** and type **Y** to stop the dev-host and proceed with Creating new application on Poseidon Next.)
 
 
 
