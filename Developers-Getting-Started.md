@@ -41,7 +41,7 @@ The console displays a message that “Listening at http://localhost:8080.” At
 > Note: Press **Ctrl+C** and type **Y** to stop the dev-host and proceed with the [next installation step](#Create-a-directory).
 
 ###  3.	Create a directory ### 
-Once you installed the Poseidon-dev-host, the next step is to create an empty directory in your local folder, execute the following command to create a directory:
+Once you installed the Poseidon-dev-host, the next step is to create an empty directory (i.e. applications) in your local folder, execute the following command to create the directory:
 
 ```powershell
 mkdir C:\kognifai\applications
