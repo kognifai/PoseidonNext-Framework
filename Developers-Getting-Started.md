@@ -3,7 +3,7 @@ This is a developer release of Poseidon Next.
 ```
 # Prerequisites [![Gitter Join the chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kognifai/Lobby)
 
-### 1. NodeJs 8 or latest
+### 1. Install NodeJs 8 or latest
 Download and install the [NodeJs 8 or latest](https://nodejs.org/) version from its official web site.
 
 ### 2. Run commands in Command Prompt or Windows PowerShell
