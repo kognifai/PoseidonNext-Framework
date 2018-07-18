@@ -23,7 +23,7 @@ Run the following command to globally install the **poseidon-dev-host** from npm
 ```powershell
 npm install @kognifai/poseidon-dev-host@latest -g
 ```
->Note: -g indicates ```poseidon-dev-host@latest``` is installed globally.
+>Note: -g indicates that the ```poseidon-dev-host@latest``` is installed globally.
 
 ### 2.	Host the Poseidon-dev-host ###
 After poseidon-dev-host 2.0 installation, you can host it on your computer ( It may act as a server, a client, or both) by running the following command:
