@@ -104,7 +104,7 @@ The following Poseidon platform is displayed on the browser along with the left-
 
 
 
-# Creating your first application on Poseidon Next
+# Creating new application on Poseidon Next
 
 
 
