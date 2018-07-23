@@ -6,13 +6,7 @@ This is a developer release of Poseidon Next.
 ### 1. Install NodeJs 8 or latest
 Download and install the [NodeJs 8 or latest](https://nodejs.org/) version from its official web site.
 
-### 2. Configure NPM to use KDI JFrog
-
-If you are using KDI registry and encountering errors, We recommend you to generate a new API key in JFrog and set it up in npm, see [Configure NPM to use KDI JFrog](https://kognifai.visualstudio.com/Kognifai%20Core/_wiki/wikis/PoseidonNext.wiki?wikiVersion=GBwikiMaster&pagePath=%2FContributors%2FDeveloper%20guides%2FJFrog%3A%20Configure%20NPM%20to%20use%20KDI%20JFrog) on how to generate a new API key in JFrog.
-
-> Note: Run this command ```npm config get registry``` to check the version of npm registry.
-
-### 3. Run commands in Command Prompt or Windows PowerShell
+### 2. Run commands in Command Prompt or Windows PowerShell
 In any version of Windows, open Command Prompt by doing the following steps:
 
  1. Press **WIN+R** 
