@@ -30,7 +30,7 @@ To install and run the Registration Tool:
 
     ```npm install -g @kognifai/poseidon-app-registration-cli```.
 
-2. Restart Windows from command line.
+2. Restart your command line.
 3. Run the tool by typing in ```regapp``` from anywhere. This will present you with the options for the tool.
 
 ![2018-06-14_08-52-35.png](.%20images/2018-06-14_08-52-35-f86cf13e-03a7-4b61-87cd-30f8bb9155c6.png)
