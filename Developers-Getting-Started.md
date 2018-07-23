@@ -8,7 +8,7 @@ Download and install the [NodeJs 8 or latest](https://nodejs.org/) version from 
 
 ### 2. Configure NPM to use KDI JFrog
 
-If you are using KDI registry, to generate a new API key in JFrog and set it up in npm, see [Configure NPM to use KDI JFrog](https://kognifai.visualstudio.com/Kognifai%20Core/_wiki/wikis/PoseidonNext.wiki?wikiVersion=GBwikiMaster&pagePath=%2FContributors%2FDeveloper%20guides%2FJFrog%3A%20Configure%20NPM%20to%20use%20KDI%20JFrog).
+If you are using KDI registry and encountering issues, It is recommended to generate a new API key in JFrog and set it up in npm, see [Configure NPM to use KDI JFrog](https://kognifai.visualstudio.com/Kognifai%20Core/_wiki/wikis/PoseidonNext.wiki?wikiVersion=GBwikiMaster&pagePath=%2FContributors%2FDeveloper%20guides%2FJFrog%3A%20Configure%20NPM%20to%20use%20KDI%20JFrog) on how to generate a new API key in JFrog.
 
 > Note: Run this command ```npm config get registry``` to check the version of npm registry.
 
