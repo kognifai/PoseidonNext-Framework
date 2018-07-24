@@ -1,5 +1,5 @@
 # Kognifai Platform
-The kognifai platform is made of many APIs and the Poseidon Next set of APIs is one of them. Many of the services and applications in the kognifai platform come with their own set of APIs, user applications and libraries. 
+The Kognifai platform consists of many APIs, in particular, the Poseidon Next set of APIs are one among them. Many of the services and applications in the Kognifai platform come with their own set of APIs, user applications and libraries. 
 
 While all these APIs can run on different endpoints, they can be unified in a uniform way using API gateways.
 
