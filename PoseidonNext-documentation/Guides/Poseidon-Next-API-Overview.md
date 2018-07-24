@@ -4,7 +4,7 @@ The Kognifai platform consists of many APIs, in particular, the Poseidon Next se
 While all these APIs can run on different endpoints, they can be unified in a uniform way using API gateways.
 
 # PoseidonNext API
-The PoseidonNext API aims to support the quick development of front-end web applications by providing typical services needed by these applications. 
+The Poseidon Next API aims to support the quick development of front-end web applications by providing typical services needed by these applications. 
 
 The API is built using ASP.NET Core and is using REST conventions where applicable.
 
@@ -13,20 +13,24 @@ One major set of the API interfaces are the functional ones where things like se
 
 The other set is aimed to support the registration and location of applications and data adapters.
 
+For more information on how to create applications and register them, see [Registration](CLI-tool-for-registering-apps-and-data-adapters.md).
+
 ## Data Adapters
 Data adapters, like the Poseidon Next applications, are intended to be run on different endpoints. Hence, their registration and location is necessary.
 
-Data adapters are meant to give a simplified and unified way of accessing different resources like assets, timeseries and events. A data adapter is an API which implements a set of standard interfaces defined by Poseidon Next.
+Data adapters are meant to give a simplified and unified way of accessing different resources like assets, time series and events. A data adapter is an API which implements a set of standard interfaces defined by Poseidon Next.
 
 Not all the API interfaces can be implemented by all resource providers so when registered, data adapters list a set of capabilities which signals which set of the API interfaces have been implemented. All data adapters have to be registered with the Poseidon Next API so that they are made available to the application. A registration tool is included with Poseidon Next.
 
-Poseidon Next provides a generator to scaffold an new ASP.NET Core API Data Adapter project.
+Poseidon Next provides a generator to scaffold a new ASP.NET Core API Data Adapter project.
+
+For more information on how to create data adapters and register them, see [Creating Data Adapter](Creating-Poseidon-Data-Adapter-project-using-Yeoman.md).
 
 ## Identity Provider
 The last set of Poseidon Next API interfaces are the identity provider interfaces which provide authentication, authorization, user and access management using open standards like OpenID Connect to applications and the other APIs.
 
 # Clients
-The API is complemented by a set of client libraries packages which aids the use of the API. The libraries are typically available as normal Javascript modules and as Angular services. More Javascript frameworks might be supported in the next releases.
+The API is complemented by a set of client libraries that aid the use of the API. The libraries are typically available as normal JavaScript modules and as Angular services. More JavaScript frameworks might be supported in the next releases.
 
 Client libraries are versioned to reflect which version of the API interfaces they support.
 
