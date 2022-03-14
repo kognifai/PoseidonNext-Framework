@@ -20,6 +20,8 @@ Poseidon Next is a subset of the kognifai platform which provides some of the fo
 
 [Guides](#guides)
 
+[Troubleshooting Guide (2022)](PoseidonNext-documentation/Guides/Troubleshooting.md)
+
 [Services](#services)
 
 [Attributions](#attributions)
